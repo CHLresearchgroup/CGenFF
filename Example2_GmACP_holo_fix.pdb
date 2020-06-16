@@ -1,0 +1,1078 @@
+HEADER    TRANSPORT PROTEIN                       05-DEC-11   2LML              
+TITLE     SOLUTION NMR STRUCTURE OF HOLO ACYL CARRIER PROTEIN FROM GEOBACTER    
+TITLE    2 METALLIREDUCENS REFINED WITH NH RDCS, NORTHEAST STRUCTURAL GENOMICS  
+TITLE    3 CONSORTIUM TARGET GMR141                                             
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: PUTATIVE ACYL CARRIER PROTEIN;                             
+COMPND   3 CHAIN: A;                                                            
+COMPND   4 ENGINEERED: YES                                                      
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 ORGANISM_SCIENTIFIC: GEOBACTER METALLIREDUCENS;                      
+SOURCE   3 ORGANISM_TAXID: 269799;                                              
+SOURCE   4 STRAIN: GS-15 / ATCC 53774 / DSM 7210;                               
+SOURCE   5 GENE: GMET_2339;                                                     
+SOURCE   6 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
+SOURCE   7 EXPRESSION_SYSTEM_TAXID: 562;                                        
+SOURCE   8 EXPRESSION_SYSTEM_VECTOR: PET 21-23C;                                
+SOURCE   9 OTHER_DETAILS: GMR141-21.1                                           
+KEYWDS    STRUCTURAL GENOMICS, PSI-BIOLOGY, PROTEIN STRUCTURE INITIATIVE,       
+KEYWDS   2 NORTHEAST STRUCTURAL GENOMICS CONSORTIUM, NESG, TRANSPORT PROTEIN    
+EXPDTA    SOLUTION NMR                                                          
+AUTHOR    T.A.RAMELOT,M.J.SMOLA,H.LEE,L.ZHAO,C.CICCOSANTI,E.L.FOOTE,K.HAMILTON, 
+AUTHOR   2 R.NAIR,B.ROST,G.SWAPNA,T.B.ACTON,R.XIAO,J.K.EVERETT,J.H.PRESTEGARD,  
+AUTHOR   3 G.T.MONTELIONE,M.A.KENNEDY,NORTHEAST STRUCTURAL GENOMICS CONSORTIUM  
+AUTHOR   4 (NESG)                                                               
+REVDAT   2   22-FEB-12 2LML    1       KEYWDS                                   
+REVDAT   1   25-JAN-12 2LML    0                                                
+SPRSDE     25-JAN-12 2LML      2KWM                                             
+JRNL        AUTH   T.A.RAMELOT,M.J.SMOLA,H.W.LEE,C.CICCOSANTI,K.HAMILTON,       
+JRNL        AUTH 2 T.B.ACTON,R.XIAO,J.K.EVERETT,J.H.PRESTEGARD,G.T.MONTELIONE,  
+JRNL        AUTH 3 M.A.KENNEDY                                                  
+JRNL        TITL   SOLUTION STRUCTURE OF 4'-PHOSPHOPANTETHEINE - GMACP3 FROM    
+JRNL        TITL 2 GEOBACTER METALLIREDUCENS: A SPECIALIZED ACYL CARRIER        
+JRNL        TITL 3 PROTEIN WITH ATYPICAL STRUCTURAL FEATURES AND A PUTATIVE     
+JRNL        TITL 4 ROLE IN LIPOPOLYSACCHARIDE BIOSYNTHESIS.                     
+JRNL        REF    BIOCHEMISTRY                  V.  50  1442 2011              
+JRNL        REFN                   ISSN 0006-2960                               
+JRNL        PMID   21235239                                                     
+JRNL        DOI    10.1021/BI101932S                                            
+REMARK   2                                                                      
+REMARK   2 RESOLUTION. NOT APPLICABLE.                                          
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   PROGRAM     : CNS 1.3, PSVS 1.4, FMCGUI                            
+REMARK   3   AUTHORS     : BRUNGER, ADAMS, CLORE, GROS, NILGES AND READ (CNS)   
+REMARK   3                 , BHATTACHARYA AND MONTELIONE (PSVS), ALEX LEMAK,    
+REMARK   3                 UNIVERSITY OF TORONTO (FMCGUI)                       
+REMARK   3                                                                      
+REMARK   3  OTHER REFINEMENT REMARKS: CNS WATER REFINEMENT (VIA FMCGUI) + RDCS  
+REMARK   4                                                                      
+REMARK   4 2LML COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
+REMARK 100                                                                      
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 16-DEC-11.                  
+REMARK 100 THE RCSB ID CODE IS RCSB102567.                                      
+REMARK 210                                                                      
+REMARK 210 EXPERIMENTAL DETAILS                                                 
+REMARK 210  EXPERIMENT TYPE                : NMR                                
+REMARK 210  TEMPERATURE           (KELVIN) : 293                                
+REMARK 210  PH                             : 6.5                                
+REMARK 210  IONIC STRENGTH                 : 0.1                                
+REMARK 210  PRESSURE                       : AMBIENT                            
+REMARK 210  SAMPLE CONTENTS                : 1.0 MM [U-100% 13C; U-100% 15N]    
+REMARK 210                                   PROTEIN, 20 MM MES, 100 MM SODIUM  
+REMARK 210                                   CHLORIDE, 5 MM CALCIUM CHLORIDE,   
+REMARK 210                                   0.02 % SODIUM AZIDE, 10 MM DTT,    
+REMARK 210                                   90% H2O/10% D2O; 1.0 MM U-100%     
+REMARK 210                                   15N AND 5% 13C BIOSYNTHETICALLY    
+REMARK 210                                   DIRECTED PROTEIN, 20 MM MES, 100   
+REMARK 210                                   MM SODIUM CHLORIDE, 5 MM CALCIUM   
+REMARK 210                                   CHLORIDE, 10 MM DTT, 0.02 %        
+REMARK 210                                   SODIUM AZIDE, 90% H2O/10% D2O;     
+REMARK 210                                   1.0 MM [U-100% 13C; U-100% 15N]    
+REMARK 210                                   PROTEIN, 20 MM MES, 100 MM SODIUM  
+REMARK 210                                   CHLORIDE, 5 MM CALCIUM CHLORIDE,   
+REMARK 210                                   0.02 % SODIUM AZIDE, 10 MM DTT,    
+REMARK 210                                   100% D2O                           
+REMARK 210                                                                      
+REMARK 210  NMR EXPERIMENTS CONDUCTED      : 2D 1H-15N HSQC; 2D 1H-13C HSQC     
+REMARK 210                                   ALIPHATIC; 2D 1H-13C HSQC          
+REMARK 210                                   AROMATIC; 2D 1H-13C HSQC-CT; 3D    
+REMARK 210                                   1H-15N NOESY; 3D 1H-13C NOESY_     
+REMARK 210                                   ALIPH; 3D HNCO; 3D HNCACB; 3D      
+REMARK 210                                   CBCA(CO)NH; 3D 1H-13C NOESY_AROM;  
+REMARK 210                                   3D HN(CO)CA; 3D HBHA(CO)NH; 3D     
+REMARK 210                                   C(CCO)NH; 3D HCCH-COSY; 3D HCCH-   
+REMARK 210                                   TOCSY; 3D CCH-TOCSY; 4D CC-NOESY;  
+REMARK 210                                   2D 1H-13C HSQC-AROMATIC; 2D 1H-    
+REMARK 210                                   15N HETNOE; 2D 1H-15N HSQC_HIS     
+REMARK 210  SPECTROMETER FIELD STRENGTH    : 600 MHZ; 850 MHZ                   
+REMARK 210  SPECTROMETER MODEL             : INOVA; AVANCE III                  
+REMARK 210  SPECTROMETER MANUFACTURER      : VARIAN; BRUKER                     
+REMARK 210                                                                      
+REMARK 210  STRUCTURE DETERMINATION.                                            
+REMARK 210   SOFTWARE USED                 : NMRPIPE 2008, VNMR 6.1C, TOPSPIN   
+REMARK 210                                   2.1.4, AUTOSTRUCTURE 2.2.1, X-     
+REMARK 210                                   PLOR_NIH 2.25, SPARKY 3.113,       
+REMARK 210                                   AUTOASSIGN 2.30, PDBSTAT 5.4,      
+REMARK 210                                   PINE_SERVER 1.0, CYANA 2.1         
+REMARK 210   METHOD USED                   : SIMULATED ANNEALING                
+REMARK 210                                                                      
+REMARK 210 CONFORMERS, NUMBER CALCULATED   : 100                                
+REMARK 210 CONFORMERS, NUMBER SUBMITTED    : 20                                 
+REMARK 210 CONFORMERS, SELECTION CRITERIA  : STRUCTURES WITH THE LOWEST ENERGY  
+REMARK 210                                                                      
+REMARK 210 BEST REPRESENTATIVE CONFORMER IN THIS ENSEMBLE : 1                   
+REMARK 210                                                                      
+REMARK 210 REMARK: NULL                                                         
+REMARK 215                                                                      
+REMARK 215 NMR STUDY                                                            
+REMARK 215 THE COORDINATES IN THIS ENTRY WERE GENERATED FROM SOLUTION           
+REMARK 215 NMR DATA.  PROTEIN DATA BANK CONVENTIONS REQUIRE THAT                
+REMARK 215 CRYST1 AND SCALE RECORDS BE INCLUDED, BUT THE VALUES ON              
+REMARK 215 THESE RECORDS ARE MEANINGLESS.                                       
+REMARK 300                                                                      
+REMARK 300 BIOMOLECULE: 1                                                       
+REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM                
+REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
+REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
+REMARK 300 BURIED SURFACE AREA.                                                 
+REMARK 350                                                                      
+REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
+REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
+REMARK 350 MOLECULE CAN BE GENERATED BY APPLYING BIOMT TRANSFORMATIONS          
+REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND                          
+REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
+REMARK 350                                                                      
+REMARK 350 BIOMOLECULE: 1                                                       
+REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: MONOMERIC                         
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A                                     
+REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
+REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
+REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 SUBTOPIC: TORSION ANGLES                                             
+REMARK 500                                                                      
+REMARK 500 TORSION ANGLES OUTSIDE THE EXPECTED RAMACHANDRAN REGIONS:            
+REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
+REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
+REMARK 500                                                                      
+REMARK 500 STANDARD TABLE:                                                      
+REMARK 500 FORMAT:(10X,I3,1X,A3,1X,A1,I4,A1,4X,F7.2,3X,F7.2)                    
+REMARK 500                                                                      
+REMARK 500 EXPECTED VALUES: GJ KLEYWEGT AND TA JONES (1996). PHI/PSI-           
+REMARK 500 CHOLOGY: RAMACHANDRAN REVISITED. STRUCTURE 4, 1395 - 1400            
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI        PSI       PHI                                   
+REMARK 500  1 PRO A   2       33.88    -94.35                                   
+REMARK 500  1 ASP A  16       75.05     51.98                                   
+REMARK 500  1 ALA A  33      -41.83    159.55                                   
+REMARK 500  1 HIS A  82       81.79    -62.01                                   
+REMARK 500  2 PRO A   2       44.28    -93.36                                   
+REMARK 500  2 THR A   3      -77.04    -64.08                                   
+REMARK 500  2 ASP A  16       80.88     67.28                                   
+REMARK 500  2 ASP A  17      114.85   -176.67                                   
+REMARK 500  2 GLU A  81      106.50    -57.56                                   
+REMARK 500  2 HIS A  84      -55.10   -170.53                                   
+REMARK 500  2 HIS A  86      -69.20     67.51                                   
+REMARK 500  3 ASP A  16       74.84     63.12                                   
+REMARK 500  3 ASP A  18      -28.60   -151.36                                   
+REMARK 500  3 LYS A  79      -70.73    -84.09                                   
+REMARK 500  3 LEU A  80      -84.01     54.33                                   
+REMARK 500  3 GLU A  81      -81.73     63.78                                   
+REMARK 500  3 HIS A  85      -52.94     72.31                                   
+REMARK 500  3 HIS A  86       90.85     67.99                                   
+REMARK 500  4 PRO A   2       33.02    -96.17                                   
+REMARK 500  4 ASP A  18      -22.19   -144.00                                   
+REMARK 500  4 LEU A  80       -6.17     72.91                                   
+REMARK 500  4 GLU A  81      -84.47     58.77                                   
+REMARK 500  4 HIS A  84     -156.67     60.23                                   
+REMARK 500  4 HIS A  85      -75.82     72.60                                   
+REMARK 500  4 HIS A  86      -70.46   -143.14                                   
+REMARK 500  5 PRO A   2       49.01    -93.86                                   
+REMARK 500  5 ASP A  16       64.60     60.76                                   
+REMARK 500  5 ASP A  17      118.58   -164.30                                   
+REMARK 500  5 THR A  26       95.49    -63.32                                   
+REMARK 500  5 LEU A  80       94.38    -67.71                                   
+REMARK 500  5 HIS A  82      -30.69   -167.12                                   
+REMARK 500  5 HIS A  84      -76.90   -166.56                                   
+REMARK 500  5 HIS A  85       80.46   -160.72                                   
+REMARK 500  6 PRO A   2       44.78    -96.17                                   
+REMARK 500  6 THR A   3      -75.74    -62.03                                   
+REMARK 500  6 ASP A  16       80.77     58.07                                   
+REMARK 500  6 ASP A  17      108.91   -172.43                                   
+REMARK 500  6 LEU A  80       44.48    -87.43                                   
+REMARK 500  6 GLU A  81       48.28    -84.75                                   
+REMARK 500  7 PRO A   2       47.77    -96.92                                   
+REMARK 500  7 ASN A  29      -63.76    158.81                                   
+REMARK 500  7 LEU A  80       84.54    -67.07                                   
+REMARK 500  7 GLU A  81     -147.36    -91.77                                   
+REMARK 500  7 HIS A  83      -77.19     70.03                                   
+REMARK 500  7 HIS A  84      157.71     68.92                                   
+REMARK 500  7 HIS A  86      168.73     63.68                                   
+REMARK 500  8 PRO A   2       40.54    -99.19                                   
+REMARK 500  8 THR A   3      -73.95    -63.71                                   
+REMARK 500  8 ALA A  33      -37.55    164.74                                   
+REMARK 500  8 LYS A  79      -72.11    -83.58                                   
+REMARK 500                                                                      
+REMARK 500 THIS ENTRY HAS     109 RAMACHANDRAN OUTLIERS.                        
+REMARK 500                                                                      
+REMARK 500 REMARK: NULL                                                         
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 SUBTOPIC: NON-CIS, NON-TRANS                                         
+REMARK 500                                                                      
+REMARK 500 THE FOLLOWING PEPTIDE BONDS DEVIATE SIGNIFICANTLY FROM BOTH          
+REMARK 500 CIS AND TRANS CONFORMATION.  CIS BONDS, IF ANY, ARE LISTED           
+REMARK 500 ON CISPEP RECORDS.  TRANS IS DEFINED AS 180 +/- 30 AND               
+REMARK 500 CIS IS DEFINED AS 0 +/- 30 DEGREES.                                  
+REMARK 500                                 MODEL     OMEGA                      
+REMARK 500 ALA A   28     ASN A   29          7      -146.61                    
+REMARK 500                                                                      
+REMARK 500 REMARK: NULL                                                         
+REMARK 610                                                                      
+REMARK 610 MISSING HETEROATOM                                                   
+REMARK 610 THE FOLLOWING RESIDUES HAVE MISSING ATOMS (M=MODEL NUMBER;           
+REMARK 610 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE NUMBER;          
+REMARK 610 I=INSERTION CODE):                                                   
+REMARK 610   M RES C SSEQI                                                      
+REMARK 610   1 PNS A   88                                                       
+REMARK 610   2 PNS A   88                                                       
+REMARK 610   3 PNS A   88                                                       
+REMARK 610   4 PNS A   88                                                       
+REMARK 610   5 PNS A   88                                                       
+REMARK 610   6 PNS A   88                                                       
+REMARK 610   7 PNS A   88                                                       
+REMARK 610   8 PNS A   88                                                       
+REMARK 610   9 PNS A   88                                                       
+REMARK 610  10 PNS A   88                                                       
+REMARK 610  11 PNS A   88                                                       
+REMARK 610  12 PNS A   88                                                       
+REMARK 610  13 PNS A   88                                                       
+REMARK 610  14 PNS A   88                                                       
+REMARK 610  15 PNS A   88                                                       
+REMARK 610  16 PNS A   88                                                       
+REMARK 610  17 PNS A   88                                                       
+REMARK 610  18 PNS A   88                                                       
+REMARK 610  19 PNS A   88                                                       
+REMARK 610  20 PNS A   88                                                       
+REMARK 800                                                                      
+REMARK 800 SITE                                                                 
+REMARK 800 SITE_IDENTIFIER: AC1                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE PNS A 88                  
+REMARK 900                                                                      
+REMARK 900 RELATED ENTRIES                                                      
+REMARK 900 RELATED ID: 16860   RELATED DB: BMRB                                 
+REMARK 900 RELATED ID: GMR141   RELATED DB: TARGETDB                            
+DBREF  2LML A    1    79  UNP    Q39T60   Q39T60_GEOMG     1     79             
+SEQADV 2LML LEU A   80  UNP  Q39T60              EXPRESSION TAG                 
+SEQADV 2LML GLU A   81  UNP  Q39T60              EXPRESSION TAG                 
+SEQADV 2LML HIS A   82  UNP  Q39T60              EXPRESSION TAG                 
+SEQADV 2LML HIS A   83  UNP  Q39T60              EXPRESSION TAG                 
+SEQADV 2LML HIS A   84  UNP  Q39T60              EXPRESSION TAG                 
+SEQADV 2LML HIS A   85  UNP  Q39T60              EXPRESSION TAG                 
+SEQADV 2LML HIS A   86  UNP  Q39T60              EXPRESSION TAG                 
+SEQADV 2LML HIS A   87  UNP  Q39T60              EXPRESSION TAG                 
+SEQRES   1 A   87  MET PRO THR LEU ASP ALA LEU THR PRO ILE PHE ARG GLN          
+SEQRES   2 A   87  VAL PHE ASP ASP ASP SER ILE VAL LEU THR ARG GLU THR          
+SEQRES   3 A   87  SER ALA ASN ASP ILE ASP ALA TRP ASP SER LEU SER HIS          
+SEQRES   4 A   87  MET ASN LEU ILE VAL SER LEU GLU VAL HIS TYR LYS ILE          
+SEQRES   5 A   87  LYS PHE ALA LEU GLY GLU LEU GLN LYS LEU LYS ASN VAL          
+SEQRES   6 A   87  GLY ASP LEU ALA ASP LEU VAL ASP LYS LYS LEU ALA ARG          
+SEQRES   7 A   87  LYS LEU GLU HIS HIS HIS HIS HIS HIS                          
+HET    PNS  A  88      42                                                       
+HETNAM     PNS 4'-PHOSPHOPANTETHEINE                                            
+FORMUL   2  PNS    C11 H23 N2 O7 P S                                            
+HELIX    1   1 PRO A    2  PHE A   15  1                                  14
+HELIX    2   2 SER A   27  ILE A   31  1                                   5
+HELIX    3   3 ASP A   35  TYR A   50  1                                  16
+HELIX    4   4 ALA A   55  GLN A   60  1                                   6
+HELIX    5   5 ASN A   64  GLU A   81  1                                  18
+LINK        OG   SER A  36                P24  PNS A  88     1555   1555  1.62
+SITE     1 AC1  8 ALA A  28  TRP A  34  ASP A  35  SER A  36                    
+SITE     2 AC1  8 HIS A  39  LEU A  62  LYS A  63  LEU A  68                    
+CRYST1    1.000    1.000    1.000  90.00  90.00  90.00 P 1           1          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      1.000000  0.000000  0.000000        0.00000                         
+SCALE2      0.000000  1.000000  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  1.000000        0.00000                         
+NUMMDL    20                                                                    
+ATOM      0  N   MET A   1     -11.694   0.520   5.480  1.00  0.00    GmACP_holo
+ATOM      0  CA  MET A   1     -10.687   1.402   4.844  1.00  0.00    GmACP_holo
+ATOM      0  C   MET A   1     -11.072   2.890   5.018  1.00  0.00    GmACP_holo
+ATOM      0  O   MET A   1     -11.734   3.475   4.158  1.00  0.00    GmACP_holo
+ATOM      0  CB  MET A   1     -10.436   1.005   3.352  1.00  0.00    GmACP_holo
+ATOM      0  CG  MET A   1     -11.688   0.642   2.534  1.00  0.00    GmACP_holo
+ATOM      0  SD  MET A   1     -12.479  -0.875   3.127  1.00  0.00    GmACP_holo
+ATOM      0  CE  MET A   1     -13.784  -1.130   1.927  1.00  0.00    GmACP_holo
+ATOM      0  N   PRO A   2     -10.684   3.521   6.179  1.00  0.00    GmACP_holo
+ATOM      0  CA  PRO A   2     -10.919   4.957   6.453  1.00  0.00    GmACP_holo
+ATOM      0  C   PRO A   2      -9.700   5.826   6.061  1.00  0.00    GmACP_holo
+ATOM      0  O   PRO A   2      -9.433   6.872   6.670  1.00  0.00    GmACP_holo
+ATOM      0  CB  PRO A   2     -11.144   4.923   7.979  1.00  0.00    GmACP_holo
+ATOM      0  CG  PRO A   2     -10.172   3.881   8.477  1.00  0.00    GmACP_holo
+ATOM      0  CD  PRO A   2      -9.990   2.883   7.337  1.00  0.00    GmACP_holo
+ATOM      0  N   THR A   3      -9.012   5.400   4.991  1.00  0.00    GmACP_holo
+ATOM      0  CA  THR A   3      -7.664   5.864   4.655  1.00  0.00    GmACP_holo
+ATOM      0  C   THR A   3      -7.644   7.260   4.023  1.00  0.00    GmACP_holo
+ATOM      0  O   THR A   3      -6.985   8.125   4.574  1.00  0.00    GmACP_holo
+ATOM      0  CB  THR A   3      -6.935   4.827   3.750  1.00  0.00    GmACP_holo
+ATOM      0  OG1 THR A   3      -7.844   4.329   2.753  1.00  0.00    GmACP_holo
+ATOM      0  CG2 THR A   3      -6.383   3.658   4.577  1.00  0.00    GmACP_holo
+ATOM      0  N   LEU A   4      -8.365   7.485   2.890  1.00  0.00    GmACP_holo
+ATOM      0  CA  LEU A   4      -8.405   8.813   2.198  1.00  0.00    GmACP_holo
+ATOM      0  C   LEU A   4      -8.737   9.956   3.180  1.00  0.00    GmACP_holo
+ATOM      0  O   LEU A   4      -8.142  11.035   3.111  1.00  0.00    GmACP_holo
+ATOM      0  CB  LEU A   4      -9.440   8.816   1.036  1.00  0.00    GmACP_holo
+ATOM      0  CG  LEU A   4      -9.129   7.895  -0.185  1.00  0.00    GmACP_holo
+ATOM      0  CD1 LEU A   4     -10.272   7.956  -1.222  1.00  0.00    GmACP_holo
+ATOM      0  CD2 LEU A   4      -7.773   8.265  -0.832  1.00  0.00    GmACP_holo
+ATOM      0  N   ASP A   5      -9.681   9.671   4.100  1.00  0.00    GmACP_holo
+ATOM      0  CA  ASP A   5     -10.051  10.567   5.219  1.00  0.00    GmACP_holo
+ATOM      0  C   ASP A   5      -8.817  10.946   6.064  1.00  0.00    GmACP_holo
+ATOM      0  O   ASP A   5      -8.513  12.130   6.250  1.00  0.00    GmACP_holo
+ATOM      0  CB  ASP A   5     -11.121   9.875   6.104  1.00  0.00    GmACP_holo
+ATOM      0  CG  ASP A   5     -11.524  10.691   7.350  1.00  0.00    GmACP_holo
+ATOM      0  OD1 ASP A   5     -12.252  11.692   7.202  1.00  0.00    GmACP_holo
+ATOM      0  OD2 ASP A   5     -11.123  10.335   8.479  1.00  0.00    GmACP_holo
+ATOM      0  N   ALA A   6      -8.100   9.913   6.520  1.00  0.00    GmACP_holo
+ATOM      0  CA  ALA A   6      -6.912  10.057   7.374  1.00  0.00    GmACP_holo
+ATOM      0  C   ALA A   6      -5.718  10.664   6.607  1.00  0.00    GmACP_holo
+ATOM      0  O   ALA A   6      -4.872  11.343   7.195  1.00  0.00    GmACP_holo
+ATOM      0  CB  ALA A   6      -6.535   8.689   7.967  1.00  0.00    GmACP_holo
+ATOM      0  N   LEU A   7      -5.674  10.429   5.289  1.00  0.00    GmACP_holo
+ATOM      0  CA  LEU A   7      -4.534  10.790   4.436  1.00  0.00    GmACP_holo
+ATOM      0  C   LEU A   7      -4.615  12.254   3.965  1.00  0.00    GmACP_holo
+ATOM      0  O   LEU A   7      -3.576  12.855   3.711  1.00  0.00    GmACP_holo
+ATOM      0  CB  LEU A   7      -4.434   9.832   3.210  1.00  0.00    GmACP_holo
+ATOM      0  CG  LEU A   7      -4.047   8.342   3.502  1.00  0.00    GmACP_holo
+ATOM      0  CD1 LEU A   7      -4.020   7.503   2.198  1.00  0.00    GmACP_holo
+ATOM      0  CD2 LEU A   7      -2.707   8.252   4.264  1.00  0.00    GmACP_holo
+ATOM      0  N   THR A   8      -5.841  12.830   3.839  1.00  0.00    GmACP_holo
+ATOM      0  CA  THR A   8      -6.021  14.215   3.319  1.00  0.00    GmACP_holo
+ATOM      0  C   THR A   8      -5.208  15.278   4.124  1.00  0.00    GmACP_holo
+ATOM      0  O   THR A   8      -4.510  16.079   3.495  1.00  0.00    GmACP_holo
+ATOM      0  CB  THR A   8      -7.530  14.627   3.196  1.00  0.00    GmACP_holo
+ATOM      0  OG1 THR A   8      -8.213  13.671   2.378  1.00  0.00    GmACP_holo
+ATOM      0  CG2 THR A   8      -7.709  16.027   2.576  1.00  0.00    GmACP_holo
+ATOM      0  N   PRO A   9      -5.236  15.293   5.511  1.00  0.00    GmACP_holo
+ATOM      0  CA  PRO A   9      -4.351  16.182   6.306  1.00  0.00    GmACP_holo
+ATOM      0  C   PRO A   9      -2.840  15.918   6.047  1.00  0.00    GmACP_holo
+ATOM      0  O   PRO A   9      -2.045  16.855   6.060  1.00  0.00    GmACP_holo
+ATOM      0  CB  PRO A   9      -4.732  15.869   7.786  1.00  0.00    GmACP_holo
+ATOM      0  CG  PRO A   9      -5.411  14.536   7.732  1.00  0.00    GmACP_holo
+ATOM      0  CD  PRO A   9      -6.143  14.519   6.410  1.00  0.00    GmACP_holo
+ATOM      0  N   ILE A  10      -2.472  14.644   5.785  1.00  0.00    GmACP_holo
+ATOM      0  CA  ILE A  10      -1.059  14.235   5.568  1.00  0.00    GmACP_holo
+ATOM      0  C   ILE A  10      -0.522  14.829   4.248  1.00  0.00    GmACP_holo
+ATOM      0  O   ILE A  10       0.530  15.459   4.238  1.00  0.00    GmACP_holo
+ATOM      0  CB  ILE A  10      -0.899  12.665   5.556  1.00  0.00    GmACP_holo
+ATOM      0  CG1 ILE A  10      -1.434  12.036   6.883  1.00  0.00    GmACP_holo
+ATOM      0  CG2 ILE A  10       0.569  12.233   5.282  1.00  0.00    GmACP_holo
+ATOM      0  CD1 ILE A  10      -0.715  12.493   8.146  1.00  0.00    GmACP_holo
+ATOM      0  N   PHE A  11      -1.287  14.651   3.156  1.00  0.00    GmACP_holo
+ATOM      0  CA  PHE A  11      -0.913  15.126   1.806  1.00  0.00    GmACP_holo
+ATOM      0  C   PHE A  11      -0.966  16.669   1.745  1.00  0.00    GmACP_holo
+ATOM      0  O   PHE A  11      -0.096  17.300   1.143  1.00  0.00    GmACP_holo
+ATOM      0  CB  PHE A  11      -1.832  14.486   0.721  1.00  0.00    GmACP_holo
+ATOM      0  CG  PHE A  11      -1.613  12.981   0.473  1.00  0.00    GmACP_holo
+ATOM      0  CD1 PHE A  11      -1.643  12.056   1.516  1.00  0.00    GmACP_holo
+ATOM      0  CD2 PHE A  11      -1.406  12.487  -0.820  1.00  0.00    GmACP_holo
+ATOM      0  CE1 PHE A  11      -1.464  10.703   1.286  1.00  0.00    GmACP_holo
+ATOM      0  CE2 PHE A  11      -1.234  11.134  -1.046  1.00  0.00    GmACP_holo
+ATOM      0  CZ  PHE A  11      -1.271  10.242   0.004  1.00  0.00    GmACP_holo
+ATOM      0  N   ARG A  12      -1.971  17.266   2.414  1.00  0.00    GmACP_holo
+ATOM      0  CA  ARG A  12      -2.076  18.738   2.561  1.00  0.00    GmACP_holo
+ATOM      0  C   ARG A  12      -0.865  19.307   3.326  1.00  0.00    GmACP_holo
+ATOM      0  O   ARG A  12      -0.460  20.445   3.084  1.00  0.00    GmACP_holo
+ATOM      0  CB  ARG A  12      -3.400  19.144   3.279  1.00  0.00    GmACP_holo
+ATOM      0  CG  ARG A  12      -4.656  19.159   2.376  1.00  0.00    GmACP_holo
+ATOM      0  CD  ARG A  12      -5.922  19.571   3.154  1.00  0.00    GmACP_holo
+ATOM      0  NE  ARG A  12      -7.093  19.747   2.273  1.00  0.00    GmACP_holo
+ATOM      0  CZ  ARG A  12      -8.377  19.713   2.668  1.00  0.00    GmACP_holo
+ATOM      0  NH1 ARG A  12      -8.694  19.468   3.929  1.00  0.00    GmACP_holo
+ATOM      0  NH2 ARG A  12      -9.331  19.917   1.783  1.00  0.00    GmACP_holo
+ATOM      0  N   GLN A  13      -0.305  18.515   4.259  1.00  0.00    GmACP_holo
+ATOM      0  CA  GLN A  13       0.852  18.936   5.058  1.00  0.00    GmACP_holo
+ATOM      0  C   GLN A  13       2.151  18.876   4.224  1.00  0.00    GmACP_holo
+ATOM      0  O   GLN A  13       2.885  19.875   4.131  1.00  0.00    GmACP_holo
+ATOM      0  CB  GLN A  13       0.985  18.065   6.341  1.00  0.00    GmACP_holo
+ATOM      0  CG  GLN A  13       2.067  18.561   7.322  1.00  0.00    GmACP_holo
+ATOM      0  CD  GLN A  13       1.782  19.962   7.884  1.00  0.00    GmACP_holo
+ATOM      0  OE1 GLN A  13       0.626  20.342   8.089  1.00  0.00    GmACP_holo
+ATOM      0  NE2 GLN A  13       2.828  20.748   8.106  1.00  0.00    GmACP_holo
+ATOM      0  N   VAL A  14       2.408  17.695   3.624  1.00  0.00    GmACP_holo
+ATOM      0  CA  VAL A  14       3.617  17.413   2.810  1.00  0.00    GmACP_holo
+ATOM      0  C   VAL A  14       3.762  18.410   1.650  1.00  0.00    GmACP_holo
+ATOM      0  O   VAL A  14       4.796  19.077   1.501  1.00  0.00    GmACP_holo
+ATOM      0  CB  VAL A  14       3.580  15.939   2.236  1.00  0.00    GmACP_holo
+ATOM      0  CG1 VAL A  14       4.784  15.658   1.297  1.00  0.00    GmACP_holo
+ATOM      0  CG2 VAL A  14       3.534  14.895   3.379  1.00  0.00    GmACP_holo
+ATOM      0  N   PHE A  15       2.696  18.517   0.853  1.00  0.00    GmACP_holo
+ATOM      0  CA  PHE A  15       2.674  19.368  -0.351  1.00  0.00    GmACP_holo
+ATOM      0  C   PHE A  15       2.299  20.824  -0.012  1.00  0.00    GmACP_holo
+ATOM      0  O   PHE A  15       2.256  21.664  -0.916  1.00  0.00    GmACP_holo
+ATOM      0  CB  PHE A  15       1.721  18.754  -1.414  1.00  0.00    GmACP_holo
+ATOM      0  CG  PHE A  15       2.071  17.297  -1.753  1.00  0.00    GmACP_holo
+ATOM      0  CD1 PHE A  15       3.256  16.986  -2.419  1.00  0.00    GmACP_holo
+ATOM      0  CD2 PHE A  15       1.248  16.244  -1.356  1.00  0.00    GmACP_holo
+ATOM      0  CE1 PHE A  15       3.593  15.673  -2.682  1.00  0.00    GmACP_holo
+ATOM      0  CE2 PHE A  15       1.594  14.935  -1.614  1.00  0.00    GmACP_holo
+ATOM      0  CZ  PHE A  15       2.768  14.652  -2.274  1.00  0.00    GmACP_holo
+ATOM      0  N   ASP A  16       2.017  21.097   1.289  1.00  0.00    GmACP_holo
+ATOM      0  CA  ASP A  16       1.759  22.448   1.842  1.00  0.00    GmACP_holo
+ATOM      0  C   ASP A  16       0.675  23.191   1.039  1.00  0.00    GmACP_holo
+ATOM      0  O   ASP A  16       0.962  24.083   0.228  1.00  0.00    GmACP_holo
+ATOM      0  CB  ASP A  16       3.079  23.266   1.980  1.00  0.00    GmACP_holo
+ATOM      0  CG  ASP A  16       2.866  24.614   2.700  1.00  0.00    GmACP_holo
+ATOM      0  OD1 ASP A  16       2.562  24.599   3.915  1.00  0.00    GmACP_holo
+ATOM      0  OD2 ASP A  16       2.990  25.686   2.065  1.00  0.00    GmACP_holo
+ATOM      0  N   ASP A  17      -0.578  22.771   1.257  1.00  0.00    GmACP_holo
+ATOM      0  CA  ASP A  17      -1.719  23.226   0.468  1.00  0.00    GmACP_holo
+ATOM      0  C   ASP A  17      -3.021  23.036   1.278  1.00  0.00    GmACP_holo
+ATOM      0  O   ASP A  17      -3.030  22.369   2.320  1.00  0.00    GmACP_holo
+ATOM      0  CB  ASP A  17      -1.754  22.447  -0.884  1.00  0.00    GmACP_holo
+ATOM      0  CG  ASP A  17      -2.633  23.117  -1.948  1.00  0.00    GmACP_holo
+ATOM      0  OD1 ASP A  17      -2.152  24.023  -2.653  1.00  0.00    GmACP_holo
+ATOM      0  OD2 ASP A  17      -3.813  22.760  -2.071  1.00  0.00    GmACP_holo
+ATOM      0  N   ASP A  18      -4.111  23.621   0.781  1.00  0.00    GmACP_holo
+ATOM      0  CA  ASP A  18      -5.424  23.649   1.464  1.00  0.00    GmACP_holo
+ATOM      0  C   ASP A  18      -6.527  23.125   0.524  1.00  0.00    GmACP_holo
+ATOM      0  O   ASP A  18      -7.540  22.568   0.972  1.00  0.00    GmACP_holo
+ATOM      0  CB  ASP A  18      -5.724  25.102   1.934  1.00  0.00    GmACP_holo
+ATOM      0  CG  ASP A  18      -7.088  25.271   2.636  1.00  0.00    GmACP_holo
+ATOM      0  OD1 ASP A  18      -7.256  24.745   3.753  1.00  0.00    GmACP_holo
+ATOM      0  OD2 ASP A  18      -7.990  25.928   2.071  1.00  0.00    GmACP_holo
+ATOM      0  N   SER A  19      -6.295  23.279  -0.786  1.00  0.00    GmACP_holo
+ATOM      0  CA  SER A  19      -7.254  22.915  -1.840  1.00  0.00    GmACP_holo
+ATOM      0  C   SER A  19      -7.137  21.426  -2.246  1.00  0.00    GmACP_holo
+ATOM      0  O   SER A  19      -8.038  20.904  -2.907  1.00  0.00    GmACP_holo
+ATOM      0  CB  SER A  19      -7.026  23.829  -3.064  1.00  0.00    GmACP_holo
+ATOM      0  OG  SER A  19      -7.021  25.194  -2.677  1.00  0.00    GmACP_holo
+ATOM      0  N   ILE A  20      -6.021  20.750  -1.865  1.00  0.00    GmACP_holo
+ATOM      0  CA  ILE A  20      -5.836  19.307  -2.141  1.00  0.00    GmACP_holo
+ATOM      0  C   ILE A  20      -6.866  18.484  -1.344  1.00  0.00    GmACP_holo
+ATOM      0  O   ILE A  20      -6.820  18.436  -0.117  1.00  0.00    GmACP_holo
+ATOM      0  CB  ILE A  20      -4.368  18.802  -1.816  1.00  0.00    GmACP_holo
+ATOM      0  CG1 ILE A  20      -3.332  19.459  -2.785  1.00  0.00    GmACP_holo
+ATOM      0  CG2 ILE A  20      -4.260  17.245  -1.868  1.00  0.00    GmACP_holo
+ATOM      0  CD1 ILE A  20      -1.885  19.033  -2.558  1.00  0.00    GmACP_holo
+ATOM      0  N   VAL A  21      -7.803  17.864  -2.066  1.00  0.00    GmACP_holo
+ATOM      0  CA  VAL A  21      -8.764  16.906  -1.510  1.00  0.00    GmACP_holo
+ATOM      0  C   VAL A  21      -8.502  15.581  -2.217  1.00  0.00    GmACP_holo
+ATOM      0  O   VAL A  21      -8.480  15.534  -3.452  1.00  0.00    GmACP_holo
+ATOM      0  CB  VAL A  21     -10.261  17.332  -1.734  1.00  0.00    GmACP_holo
+ATOM      0  CG1 VAL A  21     -11.231  16.319  -1.071  1.00  0.00    GmACP_holo
+ATOM      0  CG2 VAL A  21     -10.516  18.767  -1.215  1.00  0.00    GmACP_holo
+ATOM      0  N   LEU A  22      -8.271  14.521  -1.449  1.00  0.00    GmACP_holo
+ATOM      0  CA  LEU A  22      -7.894  13.228  -2.015  1.00  0.00    GmACP_holo
+ATOM      0  C   LEU A  22      -9.110  12.469  -2.545  1.00  0.00    GmACP_holo
+ATOM      0  O   LEU A  22     -10.157  12.399  -1.899  1.00  0.00    GmACP_holo
+ATOM      0  CB  LEU A  22      -7.146  12.384  -0.971  1.00  0.00    GmACP_holo
+ATOM      0  CG  LEU A  22      -5.833  13.020  -0.435  1.00  0.00    GmACP_holo
+ATOM      0  CD1 LEU A  22      -5.142  12.060   0.529  1.00  0.00    GmACP_holo
+ATOM      0  CD2 LEU A  22      -4.886  13.450  -1.588  1.00  0.00    GmACP_holo
+ATOM      0  N   THR A  23      -8.930  11.916  -3.736  1.00  0.00    GmACP_holo
+ATOM      0  CA  THR A  23      -9.844  10.966  -4.368  1.00  0.00    GmACP_holo
+ATOM      0  C   THR A  23      -8.975   9.813  -4.870  1.00  0.00    GmACP_holo
+ATOM      0  O   THR A  23      -7.739   9.952  -4.971  1.00  0.00    GmACP_holo
+ATOM      0  CB  THR A  23     -10.657  11.603  -5.557  1.00  0.00    GmACP_holo
+ATOM      0  OG1 THR A  23      -9.764  12.203  -6.504  1.00  0.00    GmACP_holo
+ATOM      0  CG2 THR A  23     -11.670  12.657  -5.077  1.00  0.00    GmACP_holo
+ATOM      0  N   ARG A  24      -9.600   8.682  -5.186  1.00  0.00    GmACP_holo
+ATOM      0  CA  ARG A  24      -8.878   7.487  -5.653  1.00  0.00    GmACP_holo
+ATOM      0  C   ARG A  24      -8.235   7.676  -7.044  1.00  0.00    GmACP_holo
+ATOM      0  O   ARG A  24      -7.365   6.890  -7.432  1.00  0.00    GmACP_holo
+ATOM      0  CB  ARG A  24      -9.804   6.250  -5.652  1.00  0.00    GmACP_holo
+ATOM      0  CG  ARG A  24     -10.264   5.782  -4.256  1.00  0.00    GmACP_holo
+ATOM      0  CD  ARG A  24     -10.919   4.393  -4.296  1.00  0.00    GmACP_holo
+ATOM      0  NE  ARG A  24     -10.015   3.402  -4.905  1.00  0.00    GmACP_holo
+ATOM      0  CZ  ARG A  24      -9.179   2.585  -4.251  1.00  0.00    GmACP_holo
+ATOM      0  NH1 ARG A  24      -9.151   2.550  -2.925  1.00  0.00    GmACP_holo
+ATOM      0  NH2 ARG A  24      -8.364   1.817  -4.939  1.00  0.00    GmACP_holo
+ATOM      0  N   GLU A  25      -8.658   8.718  -7.776  1.00  0.00    GmACP_holo
+ATOM      0  CA  GLU A  25      -8.177   9.007  -9.139  1.00  0.00    GmACP_holo
+ATOM      0  C   GLU A  25      -7.047  10.065  -9.137  1.00  0.00    GmACP_holo
+ATOM      0  O   GLU A  25      -6.351  10.223 -10.143  1.00  0.00    GmACP_holo
+ATOM      0  CB  GLU A  25      -9.376   9.494  -9.986  1.00  0.00    GmACP_holo
+ATOM      0  CG  GLU A  25      -9.999  10.821  -9.498  1.00  0.00    GmACP_holo
+ATOM      0  CD  GLU A  25     -11.336  11.144 -10.177  1.00  0.00    GmACP_holo
+ATOM      0  OE1 GLU A  25     -11.328  11.641 -11.322  1.00  0.00    GmACP_holo
+ATOM      0  OE2 GLU A  25     -12.408  10.880  -9.577  1.00  0.00    GmACP_holo
+ATOM      0  N   THR A  26      -6.885  10.802  -8.010  1.00  0.00    GmACP_holo
+ATOM      0  CA  THR A  26      -5.837  11.841  -7.877  1.00  0.00    GmACP_holo
+ATOM      0  C   THR A  26      -4.440  11.199  -7.921  1.00  0.00    GmACP_holo
+ATOM      0  O   THR A  26      -4.187  10.240  -7.208  1.00  0.00    GmACP_holo
+ATOM      0  CB  THR A  26      -5.999  12.650  -6.541  1.00  0.00    GmACP_holo
+ATOM      0  OG1 THR A  26      -7.299  13.249  -6.492  1.00  0.00    GmACP_holo
+ATOM      0  CG2 THR A  26      -4.935  13.758  -6.379  1.00  0.00    GmACP_holo
+ATOM      0  N   SER A  27      -3.555  11.732  -8.767  1.00  0.00    GmACP_holo
+ATOM      0  CA  SER A  27      -2.166  11.269  -8.899  1.00  0.00    GmACP_holo
+ATOM      0  C   SER A  27      -1.213  12.476  -8.874  1.00  0.00    GmACP_holo
+ATOM      0  O   SER A  27      -1.644  13.619  -8.651  1.00  0.00    GmACP_holo
+ATOM      0  CB  SER A  27      -2.017  10.471 -10.219  1.00  0.00    GmACP_holo
+ATOM      0  OG  SER A  27      -2.393  11.251 -11.346  1.00  0.00    GmACP_holo
+ATOM      0  N   ALA A  28       0.088  12.203  -9.064  1.00  0.00    GmACP_holo
+ATOM      0  CA  ALA A  28       1.111  13.239  -9.235  1.00  0.00    GmACP_holo
+ATOM      0  C   ALA A  28       0.819  14.126 -10.455  1.00  0.00    GmACP_holo
+ATOM      0  O   ALA A  28       1.105  15.322 -10.432  1.00  0.00    GmACP_holo
+ATOM      0  CB  ALA A  28       2.498  12.598  -9.350  1.00  0.00    GmACP_holo
+ATOM      0  N   ASN A  29       0.213  13.534 -11.507  1.00  0.00    GmACP_holo
+ATOM      0  CA  ASN A  29      -0.137  14.255 -12.749  1.00  0.00    GmACP_holo
+ATOM      0  C   ASN A  29      -1.235  15.315 -12.494  1.00  0.00    GmACP_holo
+ATOM      0  O   ASN A  29      -1.328  16.309 -13.221  1.00  0.00    GmACP_holo
+ATOM      0  CB  ASN A  29      -0.582  13.245 -13.840  1.00  0.00    GmACP_holo
+ATOM      0  CG  ASN A  29      -0.910  13.897 -15.189  1.00  0.00    GmACP_holo
+ATOM      0  OD1 ASN A  29      -2.068  14.200 -15.485  1.00  0.00    GmACP_holo
+ATOM      0  ND2 ASN A  29       0.108  14.135 -16.006  1.00  0.00    GmACP_holo
+ATOM      0  N   ASP A  30      -2.064  15.088 -11.454  1.00  0.00    GmACP_holo
+ATOM      0  CA  ASP A  30      -3.111  16.044 -11.027  1.00  0.00    GmACP_holo
+ATOM      0  C   ASP A  30      -2.529  17.176 -10.169  1.00  0.00    GmACP_holo
+ATOM      0  O   ASP A  30      -3.138  18.242 -10.063  1.00  0.00    GmACP_holo
+ATOM      0  CB  ASP A  30      -4.230  15.316 -10.233  1.00  0.00    GmACP_holo
+ATOM      0  CG  ASP A  30      -5.023  14.334 -11.105  1.00  0.00    GmACP_holo
+ATOM      0  OD1 ASP A  30      -4.600  13.168 -11.238  1.00  0.00    GmACP_holo
+ATOM      0  OD2 ASP A  30      -6.072  14.726 -11.668  1.00  0.00    GmACP_holo
+ATOM      0  N   ILE A  31      -1.349  16.945  -9.559  1.00  0.00    GmACP_holo
+ATOM      0  CA  ILE A  31      -0.737  17.887  -8.602  1.00  0.00    GmACP_holo
+ATOM      0  C   ILE A  31       0.630  18.374  -9.135  1.00  0.00    GmACP_holo
+ATOM      0  O   ILE A  31       1.654  17.689  -8.990  1.00  0.00    GmACP_holo
+ATOM      0  CB  ILE A  31      -0.610  17.230  -7.161  1.00  0.00    GmACP_holo
+ATOM      0  CG1 ILE A  31      -2.036  16.868  -6.599  1.00  0.00    GmACP_holo
+ATOM      0  CG2 ILE A  31       0.167  18.145  -6.173  1.00  0.00    GmACP_holo
+ATOM      0  CD1 ILE A  31      -2.050  16.228  -5.217  1.00  0.00    GmACP_holo
+ATOM      0  N   ASP A  32       0.616  19.541  -9.815  1.00  0.00    GmACP_holo
+ATOM      0  CA  ASP A  32       1.845  20.265 -10.215  1.00  0.00    GmACP_holo
+ATOM      0  C   ASP A  32       2.491  20.871  -8.960  1.00  0.00    GmACP_holo
+ATOM      0  O   ASP A  32       2.153  21.991  -8.548  1.00  0.00    GmACP_holo
+ATOM      0  CB  ASP A  32       1.557  21.358 -11.285  1.00  0.00    GmACP_holo
+ATOM      0  CG  ASP A  32       1.154  20.763 -12.638  1.00  0.00    GmACP_holo
+ATOM      0  OD1 ASP A  32      -0.040  20.469 -12.840  1.00  0.00    GmACP_holo
+ATOM      0  OD2 ASP A  32       2.041  20.560 -13.501  1.00  0.00    GmACP_holo
+ATOM      0  N   ALA A  33       3.438  20.098  -8.404  1.00  0.00    GmACP_holo
+ATOM      0  CA  ALA A  33       4.036  20.266  -7.053  1.00  0.00    GmACP_holo
+ATOM      0  C   ALA A  33       4.657  18.923  -6.643  1.00  0.00    GmACP_holo
+ATOM      0  O   ALA A  33       5.749  18.861  -6.067  1.00  0.00    GmACP_holo
+ATOM      0  CB  ALA A  33       3.004  20.690  -5.979  1.00  0.00    GmACP_holo
+ATOM      0  N   TRP A  34       3.904  17.852  -6.948  1.00  0.00    GmACP_holo
+ATOM      0  CA  TRP A  34       4.275  16.464  -6.661  1.00  0.00    GmACP_holo
+ATOM      0  C   TRP A  34       5.317  15.997  -7.693  1.00  0.00    GmACP_holo
+ATOM      0  O   TRP A  34       5.016  15.914  -8.883  1.00  0.00    GmACP_holo
+ATOM      0  CB  TRP A  34       2.988  15.575  -6.726  1.00  0.00    GmACP_holo
+ATOM      0  CG  TRP A  34       3.083  14.214  -6.063  1.00  0.00    GmACP_holo
+ATOM      0  CD1 TRP A  34       4.183  13.415  -5.916  1.00  0.00    GmACP_holo
+ATOM      0  CD2 TRP A  34       1.994  13.491  -5.471  1.00  0.00    GmACP_holo
+ATOM      0  NE1 TRP A  34       3.845  12.271  -5.251  1.00  0.00    GmACP_holo
+ATOM      0  CE2 TRP A  34       2.515  12.292  -4.964  1.00  0.00    GmACP_holo
+ATOM      0  CE3 TRP A  34       0.633  13.758  -5.305  1.00  0.00    GmACP_holo
+ATOM      0  CZ2 TRP A  34       1.726  11.354  -4.313  1.00  0.00    GmACP_holo
+ATOM      0  CZ3 TRP A  34      -0.154  12.827  -4.661  1.00  0.00    GmACP_holo
+ATOM      0  CH2 TRP A  34       0.397  11.640  -4.165  1.00  0.00    GmACP_holo
+ATOM      0  N   ASP A  35       6.527  15.699  -7.227  1.00  0.00    GmACP_holo
+ATOM      0  CA  ASP A  35       7.621  15.161  -8.058  1.00  0.00    GmACP_holo
+ATOM      0  C   ASP A  35       8.289  14.012  -7.281  1.00  0.00    GmACP_holo
+ATOM      0  O   ASP A  35       7.759  13.605  -6.257  1.00  0.00    GmACP_holo
+ATOM      0  CB  ASP A  35       8.641  16.279  -8.394  1.00  0.00    GmACP_holo
+ATOM      0  CG  ASP A  35       9.426  16.784  -7.164  1.00  0.00    GmACP_holo
+ATOM      0  OD1 ASP A  35       8.859  17.532  -6.352  1.00  0.00    GmACP_holo
+ATOM      0  OD2 ASP A  35      10.610  16.414  -7.001  1.00  0.00    GmACP_holo
+ATOM      0  N   SER A  36       9.436  13.498  -7.773  1.00  0.00    GmACP_holo
+ATOM      0  CA  SER A  36      10.230  12.421  -7.122  1.00  0.00    GmACP_holo
+ATOM      0  C   SER A  36      10.540  12.726  -5.643  1.00  0.00    GmACP_holo
+ATOM      0  O   SER A  36      10.269  11.906  -4.765  1.00  0.00    GmACP_holo
+ATOM      0  CB  SER A  36      11.563  12.194  -7.914  1.00  0.00    GmACP_holo
+ATOM      0  OG  SER A  36      11.412  11.533  -9.190  1.00  0.00    GmACP_holo
+ATOM      0  H   SER A  36       9.754  13.800  -8.639  1.00  0.00    GmACP_holo
+ATOM      0  HA  SER A  36       9.646  11.508  -7.177  1.00  0.00    GmACP_holo
+ATOM      0  HB2 SER A  36      12.036  13.152  -8.091  1.00  0.00    GmACP_holo
+ATOM      0  HB3 SER A  36      12.235  11.588  -7.315  1.00  0.00    GmACP_holo
+ATOM      0  N   LEU A  37      11.090  13.918  -5.391  1.00  0.00    GmACP_holo
+ATOM      0  CA  LEU A  37      11.522  14.348  -4.045  1.00  0.00    GmACP_holo
+ATOM      0  C   LEU A  37      10.303  14.451  -3.096  1.00  0.00    GmACP_holo
+ATOM      0  O   LEU A  37      10.344  13.948  -1.972  1.00  0.00    GmACP_holo
+ATOM      0  CB  LEU A  37      12.304  15.700  -4.153  1.00  0.00    GmACP_holo
+ATOM      0  CG  LEU A  37      13.410  16.010  -3.081  1.00  0.00    GmACP_holo
+ATOM      0  CD1 LEU A  37      12.838  16.240  -1.671  1.00  0.00    GmACP_holo
+ATOM      0  CD2 LEU A  37      14.508  14.921  -3.072  1.00  0.00    GmACP_holo
+ATOM      0  N   SER A  38       9.205  15.045  -3.600  1.00  0.00    GmACP_holo
+ATOM      0  CA  SER A  38       7.967  15.256  -2.810  1.00  0.00    GmACP_holo
+ATOM      0  C   SER A  38       7.191  13.935  -2.589  1.00  0.00    GmACP_holo
+ATOM      0  O   SER A  38       6.431  13.804  -1.625  1.00  0.00    GmACP_holo
+ATOM      0  CB  SER A  38       7.066  16.288  -3.505  1.00  0.00    GmACP_holo
+ATOM      0  OG  SER A  38       7.721  17.532  -3.623  1.00  0.00    GmACP_holo
+ATOM      0  N   HIS A  39       7.371  12.993  -3.525  1.00  0.00    GmACP_holo
+ATOM      0  CA  HIS A  39       6.818  11.625  -3.450  1.00  0.00    GmACP_holo
+ATOM      0  C   HIS A  39       7.505  10.835  -2.331  1.00  0.00    GmACP_holo
+ATOM      0  O   HIS A  39       6.857  10.113  -1.575  1.00  0.00    GmACP_holo
+ATOM      0  CB  HIS A  39       6.998  10.917  -4.817  1.00  0.00    GmACP_holo
+ATOM      0  CG  HIS A  39       6.233   9.628  -5.006  1.00  0.00    GmACP_holo
+ATOM      0  ND1 HIS A  39       4.875   9.567  -4.819  1.00  0.00    GmACP_holo
+ATOM      0  CD2 HIS A  39       6.665   8.429  -5.455  1.00  0.00    GmACP_holo
+ATOM      0  CE1 HIS A  39       4.519   8.346  -5.172  1.00  0.00    GmACP_holo
+ATOM      0  NE2 HIS A  39       5.568   7.626  -5.556  1.00  0.00    GmACP_holo
+ATOM      0  N   MET A  40       8.833  11.012  -2.220  1.00  0.00    GmACP_holo
+ATOM      0  CA  MET A  40       9.625  10.406  -1.139  1.00  0.00    GmACP_holo
+ATOM      0  C   MET A  40       9.259  11.052   0.202  1.00  0.00    GmACP_holo
+ATOM      0  O   MET A  40       9.166  10.360   1.215  1.00  0.00    GmACP_holo
+ATOM      0  CB  MET A  40      11.138  10.548  -1.412  1.00  0.00    GmACP_holo
+ATOM      0  CG  MET A  40      11.638   9.740  -2.617  1.00  0.00    GmACP_holo
+ATOM      0  SD  MET A  40      11.292   7.969  -2.480  1.00  0.00    GmACP_holo
+ATOM      0  CE  MET A  40      12.243   7.494  -1.031  1.00  0.00    GmACP_holo
+ATOM      0  N   ASN A  41       9.023  12.383   0.176  1.00  0.00    GmACP_holo
+ATOM      0  CA  ASN A  41       8.557  13.151   1.351  1.00  0.00    GmACP_holo
+ATOM      0  C   ASN A  41       7.196  12.619   1.834  1.00  0.00    GmACP_holo
+ATOM      0  O   ASN A  41       6.951  12.506   3.035  1.00  0.00    GmACP_holo
+ATOM      0  CB  ASN A  41       8.440  14.664   1.027  1.00  0.00    GmACP_holo
+ATOM      0  CG  ASN A  41       9.772  15.352   0.756  1.00  0.00    GmACP_holo
+ATOM      0  OD1 ASN A  41      10.807  14.967   1.282  1.00  0.00    GmACP_holo
+ATOM      0  ND2 ASN A  41       9.749  16.388  -0.063  1.00  0.00    GmACP_holo
+ATOM      0  N   LEU A  42       6.325  12.285   0.870  1.00  0.00    GmACP_holo
+ATOM      0  CA  LEU A  42       4.981  11.750   1.135  1.00  0.00    GmACP_holo
+ATOM      0  C   LEU A  42       5.063  10.377   1.835  1.00  0.00    GmACP_holo
+ATOM      0  O   LEU A  42       4.437  10.171   2.886  1.00  0.00    GmACP_holo
+ATOM      0  CB  LEU A  42       4.183  11.696  -0.209  1.00  0.00    GmACP_holo
+ATOM      0  CG  LEU A  42       2.646  11.406  -0.143  1.00  0.00    GmACP_holo
+ATOM      0  CD1 LEU A  42       2.326   9.899  -0.029  1.00  0.00    GmACP_holo
+ATOM      0  CD2 LEU A  42       1.985  12.213   0.998  1.00  0.00    GmACP_holo
+ATOM      0  N   ILE A  43       5.855   9.456   1.253  1.00  0.00    GmACP_holo
+ATOM      0  CA  ILE A  43       5.993   8.081   1.773  1.00  0.00    GmACP_holo
+ATOM      0  C   ILE A  43       6.648   8.095   3.174  1.00  0.00    GmACP_holo
+ATOM      0  O   ILE A  43       6.138   7.428   4.070  1.00  0.00    GmACP_holo
+ATOM      0  CB  ILE A  43       6.756   7.122   0.751  1.00  0.00    GmACP_holo
+ATOM      0  CG1 ILE A  43       5.776   6.514  -0.324  1.00  0.00    GmACP_holo
+ATOM      0  CG2 ILE A  43       7.526   5.971   1.460  1.00  0.00    GmACP_holo
+ATOM      0  CD1 ILE A  43       5.042   7.508  -1.201  1.00  0.00    GmACP_holo
+ATOM      0  N   VAL A  44       7.718   8.908   3.388  1.00  0.00    GmACP_holo
+ATOM      0  CA  VAL A  44       8.409   8.959   4.702  1.00  0.00    GmACP_holo
+ATOM      0  C   VAL A  44       7.504   9.552   5.802  1.00  0.00    GmACP_holo
+ATOM      0  O   VAL A  44       7.682   9.246   6.985  1.00  0.00    GmACP_holo
+ATOM      0  CB  VAL A  44       9.784   9.723   4.668  1.00  0.00    GmACP_holo
+ATOM      0  CG1 VAL A  44      10.777   9.063   3.681  1.00  0.00    GmACP_holo
+ATOM      0  CG2 VAL A  44       9.610  11.230   4.373  1.00  0.00    GmACP_holo
+ATOM      0  N   SER A  45       6.543  10.408   5.400  1.00  0.00    GmACP_holo
+ATOM      0  CA  SER A  45       5.483  10.909   6.302  1.00  0.00    GmACP_holo
+ATOM      0  C   SER A  45       4.567   9.758   6.751  1.00  0.00    GmACP_holo
+ATOM      0  O   SER A  45       4.183   9.689   7.913  1.00  0.00    GmACP_holo
+ATOM      0  CB  SER A  45       4.655  12.018   5.623  1.00  0.00    GmACP_holo
+ATOM      0  OG  SER A  45       5.455  13.141   5.331  1.00  0.00    GmACP_holo
+ATOM      0  N   LEU A  46       4.238   8.845   5.832  1.00  0.00    GmACP_holo
+ATOM      0  CA  LEU A  46       3.412   7.661   6.153  1.00  0.00    GmACP_holo
+ATOM      0  C   LEU A  46       4.203   6.663   7.042  1.00  0.00    GmACP_holo
+ATOM      0  O   LEU A  46       3.628   6.018   7.938  1.00  0.00    GmACP_holo
+ATOM      0  CB  LEU A  46       2.927   6.986   4.847  1.00  0.00    GmACP_holo
+ATOM      0  CG  LEU A  46       2.143   7.909   3.854  1.00  0.00    GmACP_holo
+ATOM      0  CD1 LEU A  46       1.745   7.155   2.570  1.00  0.00    GmACP_holo
+ATOM      0  CD2 LEU A  46       0.912   8.550   4.528  1.00  0.00    GmACP_holo
+ATOM      0  N   GLU A  47       5.527   6.591   6.795  1.00  0.00    GmACP_holo
+ATOM      0  CA  GLU A  47       6.470   5.753   7.561  1.00  0.00    GmACP_holo
+ATOM      0  C   GLU A  47       6.492   6.167   9.045  1.00  0.00    GmACP_holo
+ATOM      0  O   GLU A  47       6.404   5.323   9.928  1.00  0.00    GmACP_holo
+ATOM      0  CB  GLU A  47       7.910   5.870   6.982  1.00  0.00    GmACP_holo
+ATOM      0  CG  GLU A  47       8.090   5.413   5.516  1.00  0.00    GmACP_holo
+ATOM      0  CD  GLU A  47       8.013   3.905   5.288  1.00  0.00    GmACP_holo
+ATOM      0  OE1 GLU A  47       8.683   3.155   6.025  1.00  0.00    GmACP_holo
+ATOM      0  OE2 GLU A  47       7.343   3.469   4.331  1.00  0.00    GmACP_holo
+ATOM      0  N   VAL A  48       6.643   7.477   9.306  1.00  0.00    GmACP_holo
+ATOM      0  CA  VAL A  48       6.724   7.998  10.678  1.00  0.00    GmACP_holo
+ATOM      0  C   VAL A  48       5.342   8.061  11.381  1.00  0.00    GmACP_holo
+ATOM      0  O   VAL A  48       5.218   7.623  12.532  1.00  0.00    GmACP_holo
+ATOM      0  CB  VAL A  48       7.445   9.397  10.731  1.00  0.00    GmACP_holo
+ATOM      0  CG1 VAL A  48       8.926   9.267  10.300  1.00  0.00    GmACP_holo
+ATOM      0  CG2 VAL A  48       6.734  10.469   9.873  1.00  0.00    GmACP_holo
+ATOM      0  N   HIS A  49       4.324   8.598  10.678  1.00  0.00    GmACP_holo
+ATOM      0  CA  HIS A  49       2.971   8.834  11.243  1.00  0.00    GmACP_holo
+ATOM      0  C   HIS A  49       2.226   7.525  11.549  1.00  0.00    GmACP_holo
+ATOM      0  O   HIS A  49       1.841   7.287  12.696  1.00  0.00    GmACP_holo
+ATOM      0  CB  HIS A  49       2.120   9.744  10.302  1.00  0.00    GmACP_holo
+ATOM      0  CG  HIS A  49       2.466  11.210  10.407  1.00  0.00    GmACP_holo
+ATOM      0  ND1 HIS A  49       1.842  12.056  11.294  1.00  0.00    GmACP_holo
+ATOM      0  CD2 HIS A  49       3.404  11.959   9.787  1.00  0.00    GmACP_holo
+ATOM      0  CE1 HIS A  49       2.392  13.249  11.220  1.00  0.00    GmACP_holo
+ATOM      0  NE2 HIS A  49       3.340  13.218  10.315  1.00  0.00    GmACP_holo
+ATOM      0  N   TYR A  50       2.045   6.673  10.529  1.00  0.00    GmACP_holo
+ATOM      0  CA  TYR A  50       1.256   5.421  10.658  1.00  0.00    GmACP_holo
+ATOM      0  C   TYR A  50       2.153   4.224  11.016  1.00  0.00    GmACP_holo
+ATOM      0  O   TYR A  50       1.647   3.125  11.265  1.00  0.00    GmACP_holo
+ATOM      0  CB  TYR A  50       0.494   5.133   9.345  1.00  0.00    GmACP_holo
+ATOM      0  CG  TYR A  50      -0.502   6.226   8.941  1.00  0.00    GmACP_holo
+ATOM      0  CD1 TYR A  50      -1.814   6.233   9.438  1.00  0.00    GmACP_holo
+ATOM      0  CD2 TYR A  50      -0.134   7.249   8.065  1.00  0.00    GmACP_holo
+ATOM      0  CE1 TYR A  50      -2.709   7.221   9.078  1.00  0.00    GmACP_holo
+ATOM      0  CE2 TYR A  50      -1.028   8.237   7.706  1.00  0.00    GmACP_holo
+ATOM      0  CZ  TYR A  50      -2.311   8.216   8.209  1.00  0.00    GmACP_holo
+ATOM      0  OH  TYR A  50      -3.198   9.200   7.853  1.00  0.00    GmACP_holo
+ATOM      0  N   LYS A  51       3.487   4.460  11.033  1.00  0.00    GmACP_holo
+ATOM      0  CA  LYS A  51       4.521   3.439  11.347  1.00  0.00    GmACP_holo
+ATOM      0  C   LYS A  51       4.584   2.336  10.268  1.00  0.00    GmACP_holo
+ATOM      0  O   LYS A  51       5.181   1.278  10.492  1.00  0.00    GmACP_holo
+ATOM      0  CB  LYS A  51       4.360   2.828  12.784  1.00  0.00    GmACP_holo
+ATOM      0  CG  LYS A  51       4.725   3.776  13.954  1.00  0.00    GmACP_holo
+ATOM      0  CD  LYS A  51       3.758   4.966  14.108  1.00  0.00    GmACP_holo
+ATOM      0  CE  LYS A  51       4.153   5.923  15.239  1.00  0.00    GmACP_holo
+ATOM      0  NZ  LYS A  51       3.245   7.090  15.318  1.00  0.00    GmACP_holo
+ATOM      0  N   ILE A  52       4.055   2.637   9.066  1.00  0.00    GmACP_holo
+ATOM      0  CA  ILE A  52       3.806   1.627   8.024  1.00  0.00    GmACP_holo
+ATOM      0  C   ILE A  52       4.922   1.654   6.969  1.00  0.00    GmACP_holo
+ATOM      0  O   ILE A  52       5.431   2.720   6.633  1.00  0.00    GmACP_holo
+ATOM      0  CB  ILE A  52       2.404   1.840   7.357  1.00  0.00    GmACP_holo
+ATOM      0  CG1 ILE A  52       2.274   3.245   6.691  1.00  0.00    GmACP_holo
+ATOM      0  CG2 ILE A  52       1.271   1.604   8.389  1.00  0.00    GmACP_holo
+ATOM      0  CD1 ILE A  52       0.934   3.503   6.024  1.00  0.00    GmACP_holo
+ATOM      0  N   LYS A  53       5.299   0.463   6.478  1.00  0.00    GmACP_holo
+ATOM      0  CA  LYS A  53       6.443   0.263   5.560  1.00  0.00    GmACP_holo
+ATOM      0  C   LYS A  53       5.957   0.066   4.114  1.00  0.00    GmACP_holo
+ATOM      0  O   LYS A  53       5.154  -0.820   3.865  1.00  0.00    GmACP_holo
+ATOM      0  CB  LYS A  53       7.238  -1.003   5.998  1.00  0.00    GmACP_holo
+ATOM      0  CG  LYS A  53       8.069  -0.856   7.287  1.00  0.00    GmACP_holo
+ATOM      0  CD  LYS A  53       9.299   0.074   7.123  1.00  0.00    GmACP_holo
+ATOM      0  CE  LYS A  53      10.212  -0.305   5.938  1.00  0.00    GmACP_holo
+ATOM      0  NZ  LYS A  53      10.601  -1.737   5.955  1.00  0.00    GmACP_holo
+ATOM      0  N   PHE A  54       6.467   0.873   3.176  1.00  0.00    GmACP_holo
+ATOM      0  CA  PHE A  54       6.239   0.690   1.729  1.00  0.00    GmACP_holo
+ATOM      0  C   PHE A  54       7.530   0.203   1.073  1.00  0.00    GmACP_holo
+ATOM      0  O   PHE A  54       8.619   0.696   1.383  1.00  0.00    GmACP_holo
+ATOM      0  CB  PHE A  54       5.762   2.006   1.064  1.00  0.00    GmACP_holo
+ATOM      0  CG  PHE A  54       4.434   2.504   1.611  1.00  0.00    GmACP_holo
+ATOM      0  CD1 PHE A  54       3.218   2.043   1.091  1.00  0.00    GmACP_holo
+ATOM      0  CD2 PHE A  54       4.398   3.412   2.665  1.00  0.00    GmACP_holo
+ATOM      0  CE1 PHE A  54       2.022   2.492   1.607  1.00  0.00    GmACP_holo
+ATOM      0  CE2 PHE A  54       3.199   3.848   3.171  1.00  0.00    GmACP_holo
+ATOM      0  CZ  PHE A  54       2.015   3.388   2.646  1.00  0.00    GmACP_holo
+ATOM      0  N   ALA A  55       7.395  -0.804   0.213  1.00  0.00    GmACP_holo
+ATOM      0  CA  ALA A  55       8.480  -1.326  -0.612  1.00  0.00    GmACP_holo
+ATOM      0  C   ALA A  55       8.412  -0.645  -1.978  1.00  0.00    GmACP_holo
+ATOM      0  O   ALA A  55       7.317  -0.336  -2.445  1.00  0.00    GmACP_holo
+ATOM      0  CB  ALA A  55       8.343  -2.848  -0.751  1.00  0.00    GmACP_holo
+ATOM      0  N   LEU A  56       9.576  -0.413  -2.612  1.00  0.00    GmACP_holo
+ATOM      0  CA  LEU A  56       9.666   0.245  -3.940  1.00  0.00    GmACP_holo
+ATOM      0  C   LEU A  56       8.904  -0.586  -5.005  1.00  0.00    GmACP_holo
+ATOM      0  O   LEU A  56       8.371  -0.025  -5.961  1.00  0.00    GmACP_holo
+ATOM      0  CB  LEU A  56      11.172   0.469  -4.326  1.00  0.00    GmACP_holo
+ATOM      0  CG  LEU A  56      11.513   1.610  -5.367  1.00  0.00    GmACP_holo
+ATOM      0  CD1 LEU A  56      11.173   1.235  -6.824  1.00  0.00    GmACP_holo
+ATOM      0  CD2 LEU A  56      10.852   2.942  -4.961  1.00  0.00    GmACP_holo
+ATOM      0  N   GLY A  57       8.818  -1.918  -4.783  1.00  0.00    GmACP_holo
+ATOM      0  CA  GLY A  57       7.991  -2.812  -5.609  1.00  0.00    GmACP_holo
+ATOM      0  C   GLY A  57       6.503  -2.453  -5.561  1.00  0.00    GmACP_holo
+ATOM      0  O   GLY A  57       5.783  -2.581  -6.557  1.00  0.00    GmACP_holo
+ATOM      0  N   GLU A  58       6.054  -1.990  -4.385  1.00  0.00    GmACP_holo
+ATOM      0  CA  GLU A  58       4.671  -1.518  -4.165  1.00  0.00    GmACP_holo
+ATOM      0  C   GLU A  58       4.499  -0.083  -4.692  1.00  0.00    GmACP_holo
+ATOM      0  O   GLU A  58       3.400   0.297  -5.087  1.00  0.00    GmACP_holo
+ATOM      0  CB  GLU A  58       4.318  -1.583  -2.666  1.00  0.00    GmACP_holo
+ATOM      0  CG  GLU A  58       4.584  -2.955  -2.031  1.00  0.00    GmACP_holo
+ATOM      0  CD  GLU A  58       4.198  -3.005  -0.553  1.00  0.00    GmACP_holo
+ATOM      0  OE1 GLU A  58       4.736  -2.202   0.232  1.00  0.00    GmACP_holo
+ATOM      0  OE2 GLU A  58       3.341  -3.824  -0.167  1.00  0.00    GmACP_holo
+ATOM      0  N   LEU A  59       5.598   0.700  -4.701  1.00  0.00    GmACP_holo
+ATOM      0  CA  LEU A  59       5.643   2.043  -5.335  1.00  0.00    GmACP_holo
+ATOM      0  C   LEU A  59       5.402   1.925  -6.862  1.00  0.00    GmACP_holo
+ATOM      0  O   LEU A  59       4.762   2.793  -7.465  1.00  0.00    GmACP_holo
+ATOM      0  CB  LEU A  59       7.004   2.758  -5.023  1.00  0.00    GmACP_holo
+ATOM      0  CG  LEU A  59       7.114   3.585  -3.690  1.00  0.00    GmACP_holo
+ATOM      0  CD1 LEU A  59       6.319   4.891  -3.786  1.00  0.00    GmACP_holo
+ATOM      0  CD2 LEU A  59       6.681   2.773  -2.452  1.00  0.00    GmACP_holo
+ATOM      0  N   GLN A  60       5.906   0.826  -7.472  1.00  0.00    GmACP_holo
+ATOM      0  CA  GLN A  60       5.592   0.453  -8.880  1.00  0.00    GmACP_holo
+ATOM      0  C   GLN A  60       4.063   0.280  -9.099  1.00  0.00    GmACP_holo
+ATOM      0  O   GLN A  60       3.564   0.416 -10.219  1.00  0.00    GmACP_holo
+ATOM      0  CB  GLN A  60       6.324  -0.867  -9.277  1.00  0.00    GmACP_holo
+ATOM      0  CG  GLN A  60       7.847  -0.931  -8.981  1.00  0.00    GmACP_holo
+ATOM      0  CD  GLN A  60       8.744   0.009  -9.805  1.00  0.00    GmACP_holo
+ATOM      0  OE1 GLN A  60       8.344   1.095 -10.219  1.00  0.00    GmACP_holo
+ATOM      0  NE2 GLN A  60       9.987  -0.396 -10.020  1.00  0.00    GmACP_holo
+ATOM      0  N   LYS A  61       3.346  -0.026  -8.006  1.00  0.00    GmACP_holo
+ATOM      0  CA  LYS A  61       1.877  -0.210  -7.999  1.00  0.00    GmACP_holo
+ATOM      0  C   LYS A  61       1.133   1.073  -7.553  1.00  0.00    GmACP_holo
+ATOM      0  O   LYS A  61      -0.085   1.146  -7.698  1.00  0.00    GmACP_holo
+ATOM      0  CB  LYS A  61       1.510  -1.390  -7.047  1.00  0.00    GmACP_holo
+ATOM      0  CG  LYS A  61       2.188  -2.755  -7.371  1.00  0.00    GmACP_holo
+ATOM      0  CD  LYS A  61       1.376  -3.678  -8.329  1.00  0.00    GmACP_holo
+ATOM      0  CE  LYS A  61       1.217  -3.134  -9.756  1.00  0.00    GmACP_holo
+ATOM      0  NZ  LYS A  61       0.479  -4.076 -10.625  1.00  0.00    GmACP_holo
+ATOM      0  N   LEU A  62       1.858   2.069  -7.011  1.00  0.00    GmACP_holo
+ATOM      0  CA  LEU A  62       1.253   3.313  -6.471  1.00  0.00    GmACP_holo
+ATOM      0  C   LEU A  62       1.169   4.385  -7.566  1.00  0.00    GmACP_holo
+ATOM      0  O   LEU A  62       2.024   5.262  -7.624  1.00  0.00    GmACP_holo
+ATOM      0  CB  LEU A  62       2.065   3.847  -5.242  1.00  0.00    GmACP_holo
+ATOM      0  CG  LEU A  62       2.068   2.946  -3.966  1.00  0.00    GmACP_holo
+ATOM      0  CD1 LEU A  62       2.908   3.566  -2.829  1.00  0.00    GmACP_holo
+ATOM      0  CD2 LEU A  62       0.634   2.641  -3.504  1.00  0.00    GmACP_holo
+ATOM      0  N   LYS A  63       0.164   4.283  -8.463  1.00  0.00    GmACP_holo
+ATOM      0  CA  LYS A  63      -0.030   5.263  -9.561  1.00  0.00    GmACP_holo
+ATOM      0  C   LYS A  63      -0.883   6.441  -9.053  1.00  0.00    GmACP_holo
+ATOM      0  O   LYS A  63      -0.671   7.584  -9.454  1.00  0.00    GmACP_holo
+ATOM      0  CB  LYS A  63      -0.660   4.572 -10.823  1.00  0.00    GmACP_holo
+ATOM      0  CG  LYS A  63      -0.469   5.321 -12.186  1.00  0.00    GmACP_holo
+ATOM      0  CD  LYS A  63      -1.326   6.611 -12.348  1.00  0.00    GmACP_holo
+ATOM      0  CE  LYS A  63      -0.977   7.432 -13.603  1.00  0.00    GmACP_holo
+ATOM      0  NZ  LYS A  63      -1.292   6.710 -14.850  1.00  0.00    GmACP_holo
+ATOM      0  N   ASN A  64      -1.817   6.155  -8.142  1.00  0.00    GmACP_holo
+ATOM      0  CA  ASN A  64      -2.763   7.155  -7.606  1.00  0.00    GmACP_holo
+ATOM      0  C   ASN A  64      -2.837   7.039  -6.080  1.00  0.00    GmACP_holo
+ATOM      0  O   ASN A  64      -2.317   6.091  -5.486  1.00  0.00    GmACP_holo
+ATOM      0  CB  ASN A  64      -4.194   6.970  -8.208  1.00  0.00    GmACP_holo
+ATOM      0  CG  ASN A  64      -4.239   7.079  -9.733  1.00  0.00    GmACP_holo
+ATOM      0  OD1 ASN A  64      -4.394   8.160 -10.289  1.00  0.00    GmACP_holo
+ATOM      0  ND2 ASN A  64      -4.108   5.956 -10.417  1.00  0.00    GmACP_holo
+ATOM      0  N   VAL A  65      -3.511   8.025  -5.468  1.00  0.00    GmACP_holo
+ATOM      0  CA  VAL A  65      -3.802   8.067  -4.024  1.00  0.00    GmACP_holo
+ATOM      0  C   VAL A  65      -4.835   6.975  -3.640  1.00  0.00    GmACP_holo
+ATOM      0  O   VAL A  65      -4.970   6.619  -2.468  1.00  0.00    GmACP_holo
+ATOM      0  CB  VAL A  65      -4.314   9.498  -3.589  1.00  0.00    GmACP_holo
+ATOM      0  CG1 VAL A  65      -4.518   9.591  -2.057  1.00  0.00    GmACP_holo
+ATOM      0  CG2 VAL A  65      -3.345  10.608  -4.078  1.00  0.00    GmACP_holo
+ATOM      0  N   GLY A  66      -5.549   6.442  -4.650  1.00  0.00    GmACP_holo
+ATOM      0  CA  GLY A  66      -6.414   5.276  -4.467  1.00  0.00    GmACP_holo
+ATOM      0  C   GLY A  66      -5.622   4.017  -4.184  1.00  0.00    GmACP_holo
+ATOM      0  O   GLY A  66      -6.031   3.188  -3.366  1.00  0.00    GmACP_holo
+ATOM      0  N   ASP A  67      -4.469   3.901  -4.860  1.00  0.00    GmACP_holo
+ATOM      0  CA  ASP A  67      -3.494   2.832  -4.613  1.00  0.00    GmACP_holo
+ATOM      0  C   ASP A  67      -2.890   2.981  -3.213  1.00  0.00    GmACP_holo
+ATOM      0  O   ASP A  67      -2.637   1.977  -2.550  1.00  0.00    GmACP_holo
+ATOM      0  CB  ASP A  67      -2.386   2.845  -5.690  1.00  0.00    GmACP_holo
+ATOM      0  CG  ASP A  67      -2.938   2.633  -7.105  1.00  0.00    GmACP_holo
+ATOM      0  OD1 ASP A  67      -3.099   1.469  -7.527  1.00  0.00    GmACP_holo
+ATOM      0  OD2 ASP A  67      -3.241   3.624  -7.793  1.00  0.00    GmACP_holo
+ATOM      0  N   LEU A  68      -2.648   4.246  -2.775  1.00  0.00    GmACP_holo
+ATOM      0  CA  LEU A  68      -2.236   4.543  -1.384  1.00  0.00    GmACP_holo
+ATOM      0  C   LEU A  68      -3.346   4.163  -0.400  1.00  0.00    GmACP_holo
+ATOM      0  O   LEU A  68      -3.057   3.642   0.653  1.00  0.00    GmACP_holo
+ATOM      0  CB  LEU A  68      -1.836   6.048  -1.170  1.00  0.00    GmACP_holo
+ATOM      0  CG  LEU A  68      -0.369   6.442  -1.518  1.00  0.00    GmACP_holo
+ATOM      0  CD1 LEU A  68       0.650   5.608  -0.705  1.00  0.00    GmACP_holo
+ATOM      0  CD2 LEU A  68      -0.104   6.351  -3.029  1.00  0.00    GmACP_holo
+ATOM      0  N   ALA A  69      -4.614   4.405  -0.758  1.00  0.00    GmACP_holo
+ATOM      0  CA  ALA A  69      -5.764   4.079   0.111  1.00  0.00    GmACP_holo
+ATOM      0  C   ALA A  69      -5.781   2.568   0.425  1.00  0.00    GmACP_holo
+ATOM      0  O   ALA A  69      -5.987   2.150   1.577  1.00  0.00    GmACP_holo
+ATOM      0  CB  ALA A  69      -7.074   4.513  -0.556  1.00  0.00    GmACP_holo
+ATOM      0  N   ASP A  70      -5.499   1.778  -0.626  1.00  0.00    GmACP_holo
+ATOM      0  CA  ASP A  70      -5.356   0.316  -0.537  1.00  0.00    GmACP_holo
+ATOM      0  C   ASP A  70      -4.157  -0.047   0.338  1.00  0.00    GmACP_holo
+ATOM      0  O   ASP A  70      -4.317  -0.678   1.373  1.00  0.00    GmACP_holo
+ATOM      0  CB  ASP A  70      -5.175  -0.308  -1.943  1.00  0.00    GmACP_holo
+ATOM      0  CG  ASP A  70      -6.296   0.061  -2.918  1.00  0.00    GmACP_holo
+ATOM      0  OD1 ASP A  70      -7.471   0.146  -2.494  1.00  0.00    GmACP_holo
+ATOM      0  OD2 ASP A  70      -6.020   0.251  -4.120  1.00  0.00    GmACP_holo
+ATOM      0  N   LEU A  71      -2.977   0.454  -0.074  1.00  0.00    GmACP_holo
+ATOM      0  CA  LEU A  71      -1.668   0.081   0.495  1.00  0.00    GmACP_holo
+ATOM      0  C   LEU A  71      -1.585   0.445   1.987  1.00  0.00    GmACP_holo
+ATOM      0  O   LEU A  71      -1.322  -0.427   2.805  1.00  0.00    GmACP_holo
+ATOM      0  CB  LEU A  71      -0.493   0.732  -0.324  1.00  0.00    GmACP_holo
+ATOM      0  CG  LEU A  71       0.313  -0.219  -1.262  1.00  0.00    GmACP_holo
+ATOM      0  CD1 LEU A  71       1.007  -1.324  -0.457  1.00  0.00    GmACP_holo
+ATOM      0  CD2 LEU A  71      -0.579  -0.802  -2.377  1.00  0.00    GmACP_holo
+ATOM      0  N   VAL A  72      -1.831   1.735   2.309  1.00  0.00    GmACP_holo
+ATOM      0  CA  VAL A  72      -1.899   2.254   3.692  1.00  0.00    GmACP_holo
+ATOM      0  C   VAL A  72      -2.807   1.363   4.563  1.00  0.00    GmACP_holo
+ATOM      0  O   VAL A  72      -2.383   0.935   5.631  1.00  0.00    GmACP_holo
+ATOM      0  CB  VAL A  72      -2.388   3.765   3.737  1.00  0.00    GmACP_holo
+ATOM      0  CG1 VAL A  72      -2.640   4.262   5.187  1.00  0.00    GmACP_holo
+ATOM      0  CG2 VAL A  72      -1.379   4.707   3.018  1.00  0.00    GmACP_holo
+ATOM      0  N   ASP A  73      -4.013   1.014   4.052  1.00  0.00    GmACP_holo
+ATOM      0  CA  ASP A  73      -4.978   0.183   4.820  1.00  0.00    GmACP_holo
+ATOM      0  C   ASP A  73      -4.472  -1.261   5.015  1.00  0.00    GmACP_holo
+ATOM      0  O   ASP A  73      -4.731  -1.875   6.052  1.00  0.00    GmACP_holo
+ATOM      0  CB  ASP A  73      -6.369   0.147   4.146  1.00  0.00    GmACP_holo
+ATOM      0  CG  ASP A  73      -7.433  -0.471   5.067  1.00  0.00    GmACP_holo
+ATOM      0  OD1 ASP A  73      -7.810   0.180   6.069  1.00  0.00    GmACP_holo
+ATOM      0  OD2 ASP A  73      -7.875  -1.610   4.823  1.00  0.00    GmACP_holo
+ATOM      0  N   LYS A  74      -3.758  -1.791   4.007  1.00  0.00    GmACP_holo
+ATOM      0  CA  LYS A  74      -3.190  -3.159   4.070  1.00  0.00    GmACP_holo
+ATOM      0  C   LYS A  74      -2.074  -3.220   5.114  1.00  0.00    GmACP_holo
+ATOM      0  O   LYS A  74      -1.930  -4.217   5.819  1.00  0.00    GmACP_holo
+ATOM      0  CB  LYS A  74      -2.676  -3.661   2.695  1.00  0.00    GmACP_holo
+ATOM      0  CG  LYS A  74      -3.769  -3.778   1.606  1.00  0.00    GmACP_holo
+ATOM      0  CD  LYS A  74      -5.038  -4.536   2.075  1.00  0.00    GmACP_holo
+ATOM      0  CE  LYS A  74      -6.140  -4.601   0.995  1.00  0.00    GmACP_holo
+ATOM      0  NZ  LYS A  74      -7.411  -5.128   1.547  1.00  0.00    GmACP_holo
+ATOM      0  N   LYS A  75      -1.325  -2.117   5.231  1.00  0.00    GmACP_holo
+ATOM      0  CA  LYS A  75      -0.241  -1.966   6.209  1.00  0.00    GmACP_holo
+ATOM      0  C   LYS A  75      -0.816  -1.792   7.617  1.00  0.00    GmACP_holo
+ATOM      0  O   LYS A  75      -0.257  -2.300   8.593  1.00  0.00    GmACP_holo
+ATOM      0  CB  LYS A  75       0.633  -0.748   5.844  1.00  0.00    GmACP_holo
+ATOM      0  CG  LYS A  75       1.281  -0.804   4.455  1.00  0.00    GmACP_holo
+ATOM      0  CD  LYS A  75       2.165  -2.048   4.281  1.00  0.00    GmACP_holo
+ATOM      0  CE  LYS A  75       2.661  -2.205   2.845  1.00  0.00    GmACP_holo
+ATOM      0  NZ  LYS A  75       3.549  -3.376   2.705  1.00  0.00    GmACP_holo
+ATOM      0  N   LEU A  76      -1.940  -1.063   7.693  1.00  0.00    GmACP_holo
+ATOM      0  CA  LEU A  76      -2.703  -0.870   8.934  1.00  0.00    GmACP_holo
+ATOM      0  C   LEU A  76      -3.347  -2.198   9.375  1.00  0.00    GmACP_holo
+ATOM      0  O   LEU A  76      -3.507  -2.443  10.565  1.00  0.00    GmACP_holo
+ATOM      0  CB  LEU A  76      -3.763   0.250   8.751  1.00  0.00    GmACP_holo
+ATOM      0  CG  LEU A  76      -3.189   1.692   8.533  1.00  0.00    GmACP_holo
+ATOM      0  CD1 LEU A  76      -4.313   2.707   8.247  1.00  0.00    GmACP_holo
+ATOM      0  CD2 LEU A  76      -2.306   2.136   9.726  1.00  0.00    GmACP_holo
+ATOM      0  N   ALA A  77      -3.672  -3.065   8.394  1.00  0.00    GmACP_holo
+ATOM      0  CA  ALA A  77      -4.127  -4.446   8.656  1.00  0.00    GmACP_holo
+ATOM      0  C   ALA A  77      -2.977  -5.264   9.273  1.00  0.00    GmACP_holo
+ATOM      0  O   ALA A  77      -3.193  -6.077  10.177  1.00  0.00    GmACP_holo
+ATOM      0  CB  ALA A  77      -4.652  -5.100   7.363  1.00  0.00    GmACP_holo
+ATOM      0  N   ARG A  78      -1.740  -5.007   8.798  1.00  0.00    GmACP_holo
+ATOM      0  CA  ARG A  78      -0.518  -5.628   9.362  1.00  0.00    GmACP_holo
+ATOM      0  C   ARG A  78      -0.195  -5.041  10.756  1.00  0.00    GmACP_holo
+ATOM      0  O   ARG A  78       0.616  -5.598  11.488  1.00  0.00    GmACP_holo
+ATOM      0  CB  ARG A  78       0.704  -5.457   8.411  1.00  0.00    GmACP_holo
+ATOM      0  CG  ARG A  78       0.463  -5.879   6.943  1.00  0.00    GmACP_holo
+ATOM      0  CD  ARG A  78      -0.128  -7.292   6.791  1.00  0.00    GmACP_holo
+ATOM      0  NE  ARG A  78       0.795  -8.345   7.238  1.00  0.00    GmACP_holo
+ATOM      0  CZ  ARG A  78       0.473  -9.618   7.497  1.00  0.00    GmACP_holo
+ATOM      0  NH1 ARG A  78      -0.780 -10.054   7.350  1.00  0.00    GmACP_holo
+ATOM      0  NH2 ARG A  78       1.411 -10.458   7.898  1.00  0.00    GmACP_holo
+ATOM      0  N   LYS A  79      -0.792  -3.878  11.088  1.00  0.00    GmACP_holo
+ATOM      0  CA  LYS A  79      -0.700  -3.279  12.437  1.00  0.00    GmACP_holo
+ATOM      0  C   LYS A  79      -1.685  -3.926  13.424  1.00  0.00    GmACP_holo
+ATOM      0  O   LYS A  79      -1.453  -3.887  14.632  1.00  0.00    GmACP_holo
+ATOM      0  CB  LYS A  79      -0.922  -1.746  12.373  1.00  0.00    GmACP_holo
+ATOM      0  CG  LYS A  79       0.115  -0.987  11.516  1.00  0.00    GmACP_holo
+ATOM      0  CD  LYS A  79       1.570  -1.295  11.937  1.00  0.00    GmACP_holo
+ATOM      0  CE  LYS A  79       2.600  -0.663  11.001  1.00  0.00    GmACP_holo
+ATOM      0  NZ  LYS A  79       3.977  -1.062  11.354  1.00  0.00    GmACP_holo
+ATOM      0  N   LEU A  80      -2.801  -4.492  12.920  1.00  0.00    GmACP_holo
+ATOM      0  CA  LEU A  80      -3.688  -5.344  13.748  1.00  0.00    GmACP_holo
+ATOM      0  C   LEU A  80      -2.980  -6.676  14.057  1.00  0.00    GmACP_holo
+ATOM      0  O   LEU A  80      -3.181  -7.263  15.131  1.00  0.00    GmACP_holo
+ATOM      0  CB  LEU A  80      -5.088  -5.571  13.082  1.00  0.00    GmACP_holo
+ATOM      0  CG  LEU A  80      -6.146  -4.424  13.264  1.00  0.00    GmACP_holo
+ATOM      0  CD1 LEU A  80      -6.371  -4.086  14.755  1.00  0.00    GmACP_holo
+ATOM      0  CD2 LEU A  80      -5.784  -3.161  12.458  1.00  0.00    GmACP_holo
+ATOM      0  N   GLU A  81      -2.155  -7.146  13.098  1.00  0.00    GmACP_holo
+ATOM      0  CA  GLU A  81      -1.203  -8.239  13.338  1.00  0.00    GmACP_holo
+ATOM      0  C   GLU A  81      -0.141  -7.713  14.334  1.00  0.00    GmACP_holo
+ATOM      0  O   GLU A  81       0.647  -6.831  13.986  1.00  0.00    GmACP_holo
+ATOM      0  CB  GLU A  81      -0.557  -8.717  12.004  1.00  0.00    GmACP_holo
+ATOM      0  CG  GLU A  81      -1.548  -8.983  10.844  1.00  0.00    GmACP_holo
+ATOM      0  CD  GLU A  81      -2.639 -10.021  11.168  1.00  0.00    GmACP_holo
+ATOM      0  OE1 GLU A  81      -2.384 -11.236  10.993  1.00  0.00    GmACP_holo
+ATOM      0  OE2 GLU A  81      -3.758  -9.629  11.589  1.00  0.00    GmACP_holo
+ATOM      0  N   HIS A  82      -0.179  -8.247  15.576  1.00  0.00    GmACP_holo
+ATOM      0  CA  HIS A  82       0.454  -7.630  16.769  1.00  0.00    GmACP_holo
+ATOM      0  C   HIS A  82       1.993  -7.490  16.662  1.00  0.00    GmACP_holo
+ATOM      0  O   HIS A  82       2.755  -8.329  17.150  1.00  0.00    GmACP_holo
+ATOM      0  CB  HIS A  82       0.044  -8.401  18.052  1.00  0.00    GmACP_holo
+ATOM      0  CG  HIS A  82      -1.433  -8.348  18.344  1.00  0.00    GmACP_holo
+ATOM      0  ND1 HIS A  82      -2.251  -9.455  18.320  1.00  0.00    GmACP_holo
+ATOM      0  CD2 HIS A  82      -2.233  -7.304  18.672  1.00  0.00    GmACP_holo
+ATOM      0  CE1 HIS A  82      -3.482  -9.095  18.616  1.00  0.00    GmACP_holo
+ATOM      0  NE2 HIS A  82      -3.498  -7.799  18.833  1.00  0.00    GmACP_holo
+ATOM      0  N   HIS A  83       2.412  -6.416  15.969  1.00  0.00    GmACP_holo
+ATOM      0  CA  HIS A  83       3.810  -5.987  15.824  1.00  0.00    GmACP_holo
+ATOM      0  C   HIS A  83       3.801  -4.444  15.873  1.00  0.00    GmACP_holo
+ATOM      0  O   HIS A  83       3.714  -3.779  14.830  1.00  0.00    GmACP_holo
+ATOM      0  CB  HIS A  83       4.456  -6.514  14.491  1.00  0.00    GmACP_holo
+ATOM      0  CG  HIS A  83       4.692  -8.009  14.431  1.00  0.00    GmACP_holo
+ATOM      0  ND1 HIS A  83       5.931  -8.580  14.632  1.00  0.00    GmACP_holo
+ATOM      0  CD2 HIS A  83       3.848  -9.045  14.184  1.00  0.00    GmACP_holo
+ATOM      0  CE1 HIS A  83       5.839  -9.887  14.514  1.00  0.00    GmACP_holo
+ATOM      0  NE2 HIS A  83       4.590 -10.198  14.243  1.00  0.00    GmACP_holo
+ATOM      0  N   HIS A  84       3.776  -3.889  17.102  1.00  0.00    GmACP_holo
+ATOM      0  CA  HIS A  84       3.657  -2.434  17.333  1.00  0.00    GmACP_holo
+ATOM      0  C   HIS A  84       5.021  -1.855  17.740  1.00  0.00    GmACP_holo
+ATOM      0  O   HIS A  84       5.609  -2.281  18.737  1.00  0.00    GmACP_holo
+ATOM      0  CB  HIS A  84       2.596  -2.142  18.434  1.00  0.00    GmACP_holo
+ATOM      0  CG  HIS A  84       2.268  -0.681  18.625  1.00  0.00    GmACP_holo
+ATOM      0  ND1 HIS A  84       1.168  -0.084  18.054  1.00  0.00    GmACP_holo
+ATOM      0  CD2 HIS A  84       2.895   0.297  19.323  1.00  0.00    GmACP_holo
+ATOM      0  CE1 HIS A  84       1.134   1.188  18.383  1.00  0.00    GmACP_holo
+ATOM      0  NE2 HIS A  84       2.171   1.448  19.155  1.00  0.00    GmACP_holo
+ATOM      0  N   HIS A  85       5.505  -0.885  16.959  1.00  0.00    GmACP_holo
+ATOM      0  CA  HIS A  85       6.736  -0.142  17.240  1.00  0.00    GmACP_holo
+ATOM      0  C   HIS A  85       6.559   1.291  16.735  1.00  0.00    GmACP_holo
+ATOM      0  O   HIS A  85       6.145   1.492  15.592  1.00  0.00    GmACP_holo
+ATOM      0  CB  HIS A  85       7.952  -0.807  16.555  1.00  0.00    GmACP_holo
+ATOM      0  CG  HIS A  85       9.257  -0.106  16.825  1.00  0.00    GmACP_holo
+ATOM      0  ND1 HIS A  85       9.912   0.664  15.890  1.00  0.00    GmACP_holo
+ATOM      0  CD2 HIS A  85      10.016  -0.056  17.943  1.00  0.00    GmACP_holo
+ATOM      0  CE1 HIS A  85      11.010   1.158  16.423  1.00  0.00    GmACP_holo
+ATOM      0  NE2 HIS A  85      11.095   0.733  17.667  1.00  0.00    GmACP_holo
+ATOM      0  N   HIS A  86       6.896   2.275  17.589  1.00  0.00    GmACP_holo
+ATOM      0  CA  HIS A  86       6.683   3.706  17.294  1.00  0.00    GmACP_holo
+ATOM      0  C   HIS A  86       7.778   4.273  16.366  1.00  0.00    GmACP_holo
+ATOM      0  O   HIS A  86       8.757   3.590  16.045  1.00  0.00    GmACP_holo
+ATOM      0  CB  HIS A  86       6.632   4.536  18.608  1.00  0.00    GmACP_holo
+ATOM      0  CG  HIS A  86       7.979   4.847  19.222  1.00  0.00    GmACP_holo
+ATOM      0  ND1 HIS A  86       8.544   6.108  19.214  1.00  0.00    GmACP_holo
+ATOM      0  CD2 HIS A  86       8.871   4.048  19.846  1.00  0.00    GmACP_holo
+ATOM      0  CE1 HIS A  86       9.718   6.065  19.809  1.00  0.00    GmACP_holo
+ATOM      0  NE2 HIS A  86       9.937   4.825  20.200  1.00  0.00    GmACP_holo
+ATOM      0  N   HIS A  87       7.584   5.545  15.958  1.00  0.00    GmACP_holo
+ATOM      0  CA  HIS A  87       8.579   6.355  15.230  1.00  0.00    GmACP_holo
+ATOM      0  C   HIS A  87       8.566   7.794  15.811  1.00  0.00    GmACP_holo
+ATOM      0  O   HIS A  87       9.015   7.967  16.964  1.00  0.00    GmACP_holo
+ATOM      0  CB  HIS A  87       8.305   6.339  13.692  1.00  0.00    GmACP_holo
+ATOM      0  CG  HIS A  87       8.589   5.024  13.023  1.00  0.00    GmACP_holo
+ATOM      0  ND1 HIS A  87       7.684   4.384  12.217  1.00  0.00    GmACP_holo
+ATOM      0  CD2 HIS A  87       9.690   4.228  13.045  1.00  0.00    GmACP_holo
+ATOM      0  CE1 HIS A  87       8.201   3.258  11.783  1.00  0.00    GmACP_holo
+ATOM      0  NE2 HIS A  87       9.416   3.138  12.267  1.00  0.00    GmACP_holo
+TER
+HETATM 1419  P24 PNS A  88      10.344  11.968 -10.325  1.00  0.00           P
+HETATM 1420  O25 PNS A  88      10.730  11.152 -11.488  1.00  0.00           O
+HETATM 1421  O26 PNS A  88      10.381  13.445 -10.479  1.00  0.00           O
+HETATM 1422  O27 PNS A  88       8.932  11.475  -9.737  1.00  0.00           O
+HETATM 1423  C28 PNS A  88       7.694  11.634 -10.423  1.00  0.00           C
+HETATM 1424  C29 PNS A  88       6.706  10.492 -10.006  1.00  0.00           C
+HETATM 1425  C30 PNS A  88       5.303  10.781 -10.597  1.00  0.00           C
+HETATM 1426  C31 PNS A  88       6.580  10.470  -8.459  1.00  0.00           C
+HETATM 1427  C32 PNS A  88       7.283   9.094 -10.530  1.00  0.00           C
+HETATM 1428  O33 PNS A  88       8.527   8.789  -9.871  1.00  0.00           O
+HETATM 1429  C34 PNS A  88       6.324   7.909 -10.305  1.00  0.00           C
+HETATM 1430  O35 PNS A  88       6.548   7.091  -9.405  1.00  0.00           O
+HETATM 1431  N36 PNS A  88       5.278   7.822 -11.147  1.00  0.00           N
+HETATM 1432  C37 PNS A  88       4.259   6.775 -11.092  1.00  0.00           C
+HETATM 1433  C38 PNS A  88       3.487   6.799  -9.777  1.00  0.00           C
+HETATM 1434  C39 PNS A  88       2.723   8.097  -9.478  1.00  0.00           C
+HETATM 1435  O40 PNS A  88       2.618   8.997 -10.320  1.00  0.00           O
+HETATM 1436  N41 PNS A  88       2.144   8.147  -8.271  1.00  0.00           N
+HETATM 1437  C42 PNS A  88       1.371   9.301  -7.787  1.00  0.00           C
+HETATM 1438  C43 PNS A  88       0.400   8.889  -6.684  1.00  0.00           C
+HETATM 1439  S44 PNS A  88       1.244   8.118  -5.298  1.00  0.00           S
+HETATM 1440 H282 PNS A  88       7.278  12.602 -10.150  1.00  0.00           H
+HETATM 1441 H281 PNS A  88       7.857  11.606 -11.496  1.00  0.00           H
+HETATM 1442 H303 PNS A  88       4.590  10.063 -10.187  1.00  0.00           H
+HETATM 1443 H302 PNS A  88       4.984  11.783 -10.332  1.00  0.00           H
+HETATM 1444 H301 PNS A  88       5.326  10.685 -11.673  1.00  0.00           H
+HETATM 1445 H313 PNS A  88       6.200  11.422  -8.102  1.00  0.00           H
+HETATM 1446 H312 PNS A  88       5.893   9.686  -8.158  1.00  0.00           H
+HETATM 1447 H311 PNS A  88       7.549  10.281  -8.014  1.00  0.00           H
+HETATM 1448  H32 PNS A  88       7.478   9.171 -11.593  1.00  0.00           H
+HETATM 1449  H33 PNS A  88       8.336   8.332  -9.041  1.00  0.00           H
+HETATM 1450  H36 PNS A  88       5.167   8.505 -11.821  1.00  0.00           H
+HETATM 1451 H372 PNS A  88       3.565   6.921 -11.912  1.00  0.00           H
+HETATM 1452 H371 PNS A  88       4.740   5.807 -11.199  1.00  0.00           H
+HETATM 1453 H382 PNS A  88       2.778   5.984  -9.778  1.00  0.00           H
+HETATM 1454 H381 PNS A  88       4.200   6.641  -8.982  1.00  0.00           H
+HETATM 1455  H41 PNS A  88       2.240   7.379  -7.675  1.00  0.00           H
+HETATM 1456 H422 PNS A  88       2.057  10.045  -7.397  1.00  0.00           H
+HETATM 1457 H421 PNS A  88       0.807   9.730  -8.610  1.00  0.00           H
+HETATM 1458 H431 PNS A  88      -0.305   8.172  -7.085  1.00  0.00           H
+HETATM 1459 H432 PNS A  88      -0.138   9.754  -6.325  1.00  0.00           H
+HETATM 1460  H44 PNS A  88       2.116   8.987  -4.819  1.00  0.00           H
+CONECT  549 1419  548
+CONECT 1419  549 1420 1421 1422
+CONECT 1420 1419
+CONECT 1421 1419
+CONECT 1422 1419 1423
+CONECT 1423 1422 1424 1440 1441
+CONECT 1424 1423 1425 1426 1427
+CONECT 1425 1424 1442 1443 1444
+CONECT 1426 1424 1445 1446 1447
+CONECT 1427 1424 1428 1429 1448
+CONECT 1428 1427 1449
+CONECT 1429 1427 1430 1431
+CONECT 1430 1429
+CONECT 1431 1429 1432 1450
+CONECT 1432 1431 1433 1451 1452
+CONECT 1433 1432 1434 1453 1454
+CONECT 1434 1433 1435 1436
+CONECT 1435 1434
+CONECT 1436 1434 1437 1455
+CONECT 1437 1436 1438 1456 1457
+CONECT 1438 1437 1439 1458 1459
+CONECT 1439 1438 1460
+CONECT 1440 1423
+CONECT 1441 1423
+CONECT 1442 1425
+CONECT 1443 1425
+CONECT 1444 1425
+CONECT 1445 1426
+CONECT 1446 1426
+CONECT 1447 1426
+CONECT 1448 1427
+CONECT 1449 1428
+CONECT 1450 1431
+CONECT 1451 1432
+CONECT 1452 1432
+CONECT 1453 1433
+CONECT 1454 1433
+CONECT 1455 1436
+CONECT 1456 1437
+CONECT 1457 1437
+CONECT 1458 1438
+CONECT 1459 1438
+CONECT 1460 1439
+END
