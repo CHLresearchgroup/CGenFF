@@ -1,7 +1,7 @@
 # Accessing Tutorial Notebook
 ## From Mac
 1. Open a terminal window in your local computer and connect to the WSx workstation at Haverford
-2. Run “jupyter notebook <password>”
+2. Run “jupyter notebook < password >”
 3. Run “ jupyter lab —no-browser —port=8888”
 4. Open a new terminal window on your local computer
 5. Run “ ssh -N -f -L localhost:8888:localhost:8888 USER@ws9.kinsc-cluster.haverford.edu” from the new window
